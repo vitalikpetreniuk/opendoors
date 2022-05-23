@@ -2,7 +2,7 @@
 
 $accent: orange; // Accent Color
 $fontsize: 20px; // Body Font Size
-$textcolor: #000000; // Text Color
+$textcolor: #3B4037; // Text Color
 $lineheight: 30px; // Document Line Height
 $userfont: 'din-2014',sans-serif; // User Font Family
 $systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
@@ -23,7 +23,7 @@ $gutter: $grid-gutter-width;
 		font-family: $fname;
 		font-style: $fstyle;
 		font-weight: $fweight;
-		src: url($furl) format('woff2');
+		src: url($furl) format('woff');
 	}
 }
 
@@ -75,7 +75,7 @@ body {
 	position: relative;
 	overflow-x: hidden;
 	background: #FFFFFF;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 ._over-hidden {

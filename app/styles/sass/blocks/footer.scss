@@ -2,10 +2,10 @@ footer {
   .copyright {
     @include media-max(575) {
       flex-direction: column;
-    }
-    & > div {
-      &:last-of-type {
-        text-align: start !important;
+      & > div {
+        &:last-of-type {
+          text-align: start !important;
+        }
       }
     }
   }
