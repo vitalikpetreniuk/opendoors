@@ -1,0 +1,17 @@
+.slider-meet {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+  .meet-slider__slide {
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    &:hover {
+      .meet-slider__details {
+        right: 0;
+      }
+    }
+  }
+  .meet-slider__gradient {
+    right: 0;
+  }
+}

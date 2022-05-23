@@ -1,0 +1,7 @@
+.navbar-brand {
+  img {
+    @include media-max(767) {
+      height: auto;
+    }
+  }
+}

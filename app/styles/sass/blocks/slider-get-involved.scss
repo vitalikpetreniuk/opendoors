@@ -1,0 +1,31 @@
+.slider-get-involved {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+  @include media-max(1199) {
+    max-width: 960px;
+  }
+  @include media-max(991) {
+    max-width: 720px;
+  }
+  @include media-max(767) {
+    max-width: 540px;
+  }
+  .get-involved-slider__slide {
+    width: calc(100% - 20px);
+    margin: 0 10px;
+    @include media-max(575) {
+      width: calc(100% - 12px);
+      margin: 0 6px;
+    }
+  }
+  .get-involved-slider__slide:hover:after {
+    right: 0 !important;
+  }
+
+  .slick-dots li button:before,
+  .slick-dots li.slick-active button:before {
+    color: #474141;
+  }
+
+}

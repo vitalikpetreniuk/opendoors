@@ -1,0 +1,89 @@
+// USER VARIABLES SECTION
+
+$accent: orange; // Accent Color
+$fontsize: 20px; // Body Font Size
+$textcolor: #000000; // Text Color
+$lineheight: 30px; // Document Line Height
+$userfont: 'din-2014',sans-serif; // User Font Family
+$systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 34px;
+$gutter: $grid-gutter-width;
+
+// IMPORT SECTION
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import "mixins";
+
+
+@mixin font($fname, $fstyle, $fweight, $furl) {
+	@font-face {
+		font-family: $fname;
+		font-style: $fstyle;
+		font-weight: $fweight;
+		src: url($furl) format('woff2');
+	}
+}
+
+@include font('din-2014', normal, 200, '../fonts/DIN2014-ExtraLight.woff');
+@include font('din-2014', normal, 300, '../fonts/DIN2014-Light.woff');
+@include font('din-2014', normal, 400, '../fonts/DIN2014-Regular.woff');
+@include font('din-2014', normal, 600, '../fonts/DIN2014-DemiBold.woff');
+@include font('din-2014', normal, 700, '../fonts/DIN2014-Bold.woff');
+@include font('din-2014', normal, 800, '../fonts/DIN2014-ExtraBold.woff');
+
+
+//@import 'node_modules/bootstrap/scss/bootstrap-reboot.scss'; // Bootstrap Reboot collection
+//@import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss'; // Bootstrap Breakpoints mixin
+//@import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
+//@import 'node_modules/bootstrap/scss/_utilities.scss'; // Optional Bootstrap Utilites
+
+// FONTS LOAD SECTION
+
+// GENERAL CSS SETTINGS
+
+::placeholder {
+	color: #666;
+}
+
+::selection {
+	background-color: $accent;
+	color: #fff;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	scrollbar-width: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: $userfont;
+	font-size: $fontsize;
+	line-height: $lineheight;
+	color: $textcolor;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	background: #FFFFFF;
+	font-weight: 600;
+}
+
+._over-hidden {
+	overflow: hidden;
+}
+
+//@media (min-width: 1400px) {
+//	.container {
+//		max-width: 1317px;
+//	}
+//}
