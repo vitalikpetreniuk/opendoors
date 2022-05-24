@@ -16,4 +16,29 @@
   .carousel-overlay {
     opacity: .3;
   }
+  &__banner-overlay {
+    &.light {
+      background: linear-gradient(180deg,transparent,rgba(4,1,4,.2));
+    }
+  }
+  .large-image {
+    @include media-max(767) {
+      display: none;
+    }
+  }
+  .middle-image {
+    display: none;
+    @include media-max(767) {
+      display: block;
+    }
+    @include media-max(375) {
+      display: none;
+    }
+  }
+  .small-image {
+    display: none;
+    @include media-max(375) {
+      display: block;
+    }
+  }
 }

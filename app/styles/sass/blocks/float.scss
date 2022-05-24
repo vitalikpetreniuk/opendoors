@@ -1,0 +1,5 @@
+.float-right-wrapper {
+  @include media-max(767) {
+    margin-left: 0;
+  }
+}
