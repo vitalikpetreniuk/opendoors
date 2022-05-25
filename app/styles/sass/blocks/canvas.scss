@@ -1,0 +1,21 @@
+#cc1,#cc2,#cc3 { position:relative;width:100%;}
+#cc1,#cc2 {height:225px;}
+#cc3{height:500px;}
+
+.wordwrap {
+  white-space: pre-wrap;
+}
+.canvasjs-chart-tooltip {
+  max-width: 250px;
+  line-height: 16px;
+  box-shadow: none !important;
+  pointer-events: auto !important;
+}
+
+.canvasjs-chart-tooltip > div:first-child {
+  padding: 0!important;
+}
+
+.p-3 img {
+  padding: 0!important;
+}
