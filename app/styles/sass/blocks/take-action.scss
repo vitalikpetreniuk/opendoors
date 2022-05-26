@@ -1,0 +1,21 @@
+.take-action__listing {
+  @include media-max(575) {
+    width: 100% !important;
+  }
+  .thumbnail {
+    @include media-max(575) {
+      padding: 0 0 20px 0 !important;
+    }
+  }
+  .content {
+    @include media-max(575) {
+      padding: 0 !important;
+    }
+  }
+  .cta {
+    @include media-max(575) {
+      padding: 0 20px 0 0 !important;
+      margin-top: 20px !important;
+    }
+  }
+}

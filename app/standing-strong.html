@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/default.bundle.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="https://kit.fontawesome.com/c454b5b31f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header class="banner">
+      <div class="top-navigation">
+        <div class="navbar">
+          <ul class="nav ml-auto">
+            <li class="shopping-cart-status nav-item" data-href="">
+              <a href="#" class="nav-link">
+                <i class="fa fa-shopping-cart"></i>
+                Orders
+                <span class="count">(1)</span>
+              </a>
+            </li>
+            <ul class="nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-sign-in-alt" aria-hidden="true"></i>
+                  Sign In
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span class="fas fa-user-circle" aria-hidden="true"></span>
+                  Register
+                </a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-xl main-navigation">
+        <a class="navbar-brand" href="#">
+          <img src="images/dist/logo.svg" alt="" class="logo">
+        </a>
+        <a href="#" class="btn btn-primary tablet-donate-search ml-auto">Donate</a>
+        <button type="submit" class="btn btn-outline-secondary toggle-search tablet-donate-search" data-toggle="collapse" data-target="#header-search-form-tablet" aria-expanded="false" aria-controls="header-search-form">
+          <i class="fas fa-search"></i>
+          <span class="sr-only">Search</span>
+        </button>
+        <form class="form-inline header-search-form" method="" action="" role="search">
+          <div class="collapse" id="header-search-form-tablet">
+            <input class="form-control search-field" id="qs" name="qs" value="" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary btn-submit-search" type="submit">
+              <i class="fas fa-search"></i>
+              <span class="sr-only">Search</span>
+            </button>
+            <button class="btn toggle-search">
+              <i class="fas fa-envelope fa-2x"></i>
+              <span class="sr-only">Subscription</span>
+            </button>
+          </div>
+        </form>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="weblinks-depth-1 navbar-nav ml-auto" data-weblinks-depth="1">
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="" role="button" title="World Watch List">World Watch List <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="World Watch List">World Watch List</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Explore the Top 50">Explore the Top 50</a>
+                </li>
+                <li>
+                  <a href="#" title="Resources">Resources</a>
+                </li>
+                <li>
+                  <a href="#" title="Advocacy Report" class="active">Advocacy Report</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="About">About <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="About">About</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="What We Do">What We Do</a>
+                </li>
+                <li>
+                  <a href="#" title="Our Story">Our Story</a>
+                </li>
+                <li>
+                  <a href="#" title="Brother Andrew">Brother Andrew</a>
+                </li>
+                <li>
+                  <a href="#" title="Our Values">Our Values</a>
+                </li>
+                <li>
+                  <a href="#" title="Open Doors FAQs">Open Doors FAQs</a>
+                </li>
+                <li>
+                  <a href="#" title="Annual Review">Annual Review</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="Latest">Latest <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="Latest">Latest</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Stories">Stories</a>
+                </li>
+                <li>
+                  <a href="#" title="Magazine">Magazine</a>
+                </li>
+                <li>
+                  <a href="#" title="Annual Gathering: Standing Strong">Annual Gathering: Standing Strong</a>
+                </li>
+                <li>
+                  <a href="#" title="Open Doors Prayer Webinars">Open Doors Prayer Webinars</a>
+                </li>
+                <li>
+                  <a href="#" title="Campaigns">Campaigns</a>
+                </li>
+                <li>
+                  <a href="#" title="- World Watch Top Ten">- World Watch Top Ten</a>
+                </li>
+                <li>
+                  <a href="#" title=" - Hope for the Middle East"> - Hope for the Middle East</a>
+                </li>
+                <li>
+                  <a href="#" title=" - West Africa"> - West Africa</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="Get Involved">Get Involved <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="Get Involved">Get Involved</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Resources">Resources</a>
+                </li>
+                <li>
+                  <a href="#" title="Advocacy">Advocacy</a>
+                </li>
+                <li>
+                  <a href="#" title="Give a Gift">Give a Gift</a>
+                </li>
+                <li>
+                  <a href="#" title="Fundraise">Fundraise</a>
+                </li>
+                <li>
+                  <a href="#" title="Churches">Churches</a>
+                </li>
+                <li>
+                  <a href="#" title="Send A Letter">Send A Letter</a>
+                </li>
+                <li>
+                  <a href="#" title="Volunteer">Volunteer</a>
+                </li>
+                <li>
+                  <a href="#" title="Leave a Legacy">Leave a Legacy</a>
+                </li>
+                <li>
+                  <a href="#" title="Give in Memory">Give in Memory</a>
+                </li>
+                <li>
+                  <a href="#" title="Pray with us">Pray with us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="home-hero alt-hero">
+      <div class="page-hero__banner-contents alt-hero__banner-contents">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-lg-6 mr-auto">
+              <div class="page-hero__banner-title">Standing Strong 2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="home-hero__banner-overlay light"></div>
+      <img class="large-image" src="images/dist/banner/standing-strong-2022-web-bnr.jpg" alt="">
+      <img class="middle-image" src="images/dist/banner/standing-strong-2022-web-bnr.jpg" alt="">
+      <img class="small-image" src="images/dist/banner/standing-strong-2022-web-bnr.jpg" alt="">
+    </section>
+
+    <section class="standard-page" role="document">
+      <div class="container">
+        <div class="features-block__heading">
+          <div class="features-block__heading-contents">
+            <p>You are warmly invited to join Open Doors supporters for our annual gathering, together again in-person, at this year’s Standing Strong on <strong>Saturday 24 September 2022</strong> at Trent Vineyard, Nottingham.</p>
+          </div>
+        </div>
+        <h3>Evening event 7:30-9pm</h3>
+        <p>Attend the evening event, in-person or watch online. Join us and meet your persecuted church family from the Middle East and Asia. You will be encouraged by their stories of courage and faith and have an opportunity to unite with them in prayer and worship.</p>
+        <div class="row">
+          <div class="col-md-3">
+            <p>
+              <a class="btn btn-primary btn-lg" href="#" target="_blank">Attend In-person</a>
+            </p>
+          </div>
+          <div class="col-md-3 mr-auto">
+            <p>
+              <a class="btn btn-primary btn-lg" href="#" target="_blank">Attend Online</a>
+            </p>
+          </div>
+        </div>
+        <h3>Afternoon seminars 3-5pm</h3>
+        <p>This year, in-person attendees also have the opportunity to attend two afternoon seminars. There will be a choice of three seminars: ‘Living in Afghanistan the most dangerous place to be a Christian’, ‘How hope is being restored in the Middle East’ and ‘The global trends of persecution.’</p>
+        <h2>Resorts World Arena update</h2>
+        <p>As we are still emerging from Covid, we believe it is not appropriate, at this time, to host a large-scale in-person event. We have therefore decided to postpone our booking at Resorts World Arena to 2023.</p>
+        <p>If you have ticket(s) booked for the Standing Strong event taking place at Resorts World Arena, all of your tickets - including any youth, children, family, group and lunch tickets that you may have ordered - will now be automatically transferred to 2023.</p>
+        <p>Please note, full refunds are available. To request a refund, please do this via the account of your ticket provider. If you booked directly through Ticket Factory, please contact them and request a refund through this form. You can find more details within our FAQs below.</p>
+        <p>Those who booked over the phone with our Inspire team will have booked via Eventbrite. Details on how to request a refund via your Eventbrite account can be found here. You can find more details within our FAQs below.</p>
+        <p>If you have booked tickets on behalf of others, please notify them also as we don’t hold their contact details.</p>
+      </div>
+    </section>
+
+    <section class="faqs-resources">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 ml-auto mr-auto">
+            <div class="faqs">
+              <h2 class="text-center">FAQs</h2>
+              <div class="accordion" id="AccordionStandingStrong">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseOne" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseOne" data-toggle="collapse" type="button">Why has Standing Strong at Resorts World Arena been postponed?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingOne" class="collapse" data-parent="#AccordionStandingStrong" id="collapseOne">
+                    <div class="card-body">
+                      <p>We are thankful that we will be gathering together in person once again for Standing Strong this year. However, as we are still emerging from Covid, we believe it is not appropriate, at this time, to host a large scale in-person event. We have therefore decided to postpone our booking at Resorts World Arena to 2023</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseTwo" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseTwo" data-toggle="collapse" type="button">What will happen instead in 2022?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingTwo" class="collapse" data-parent="#AccordionStandingStrong" id="collapseTwo">
+                    <div class="card-body">
+                      <p>After two years of Standing Strong being online, we are excited to announce that we will be gathering together in-person for Standing Strong 2022 on Saturday 24 September at Trent Vineyard, Nottingham.</p>
+                      <p>This year we will be offering you the opportunity to attend afternoon seminars (in-person only) from 3-5pm, as well as attend the evening event at 7:30-9pm, which you can attend in person or watch online.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseThree" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseThree" data-toggle="collapse" type="button">What seminars will be available?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingThree" class="collapse" data-parent="#AccordionStandingStrong" id="collapseThree">
+                    <div class="card-body">
+                      <p>Our afternoon seminars will be in-person only and you will have the opportunity to attend two seminars. Seminar topics will cover; Living in Afghanistan the most dangerous place to be a Christian’, ‘How hope is being restored in the Middle East’ and ‘The global Trends of Persecution.’</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseFour" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseFour" data-toggle="collapse" type="button">What does this mean for the ticket(s) I’ve purchased?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingFour" class="collapse" data-parent="#AccordionStandingStrong" id="collapseFour">
+                    <div class="card-body">
+                      <p>All tickets, whether they are individual, group, children, youth or family tickets, will be transferred to the Standing Strong event at Resorts World Arena in 2023. There are no extra fees to pay. Full refunds are also available on all tickets.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseFive" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseFive" data-toggle="collapse" type="button">I purchased a lunch ticket as well – will this be transferred?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingFive" class="collapse" data-parent="#AccordionStandingStrong" id="collapseFive">
+                    <div class="card-body">
+                      <p>Yes, if you purchased a lunch ticket, this will also be transferred. Or, if you have requested a refund, it will be refunded instead.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseSix" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseSix" data-toggle="collapse" type="button">Can my ticket(s) be transferred to this year’s Standing Strong event at Trent Vineyard?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingSix" class="collapse" data-parent="#AccordionStandingStrong" id="collapseSix">
+                    <div class="card-body">
+                      <p>Unfortunately, as the venue and ticket prices for this year’s Standing Strong event are not the same, we are unable to transfer tickets booked for Resorts World Arena to Standing Strong at Trent Vineyard.</p>
+                      <p>You will need to request a refund on the tickets you still have booked either through Ticket Factory or Eventbrite and make a new booking using the links above for this year’s event.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingSeven">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseSeven" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseSeven" data-toggle="collapse" type="button">How do I get a refund?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingSeven" class="collapse" data-parent="#AccordionStandingStrong" id="collapseSeven">
+                    <div class="card-body">
+                      <p>If you booked online, then you will need to request a refund via your Ticket Factory account. You can contact Ticket Factory and request a refund via the form saved <a href="https://public.mc.hostedcc.com/nec/forms/OnlineEmailForm" target="_blank"><strong>here</strong></a>. Ticket Factory will also contact you directly via email.</p>
+                      <p>If you booked tickets via Eventbrite, please see details on how to request a refund via your Eventbrite account <a href="https://www.eventbrite.co.uk/support/articles/en_US/How_To/can-i-get-a-refund?lg=en_GB" target="_blank"><strong>here</strong></a>.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingEight">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseEight" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseEight" data-toggle="collapse" type="button">My card details have changed since I booked my tickets, what should I do?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingEight" class="collapse" data-parent="#AccordionStandingStrong" id="collapseEight">
+                    <div class="card-body">
+                      <p>If you booked tickets via Eventbrite and want a refund made to a different credit/debit card you can update your details on your Eventbrite order. Please see Eventbrite FAQ’s <a href="https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information?lg=en_GB" target="_blank"><strong>here</strong></a>.</p>
+                      <p>If you booked tickets via Ticket Factory please include details about your change of payment details when filling out the customer services form.</p>
+                      <p>If you have any difficulties with this, or if you have any further questions, please email us at <a href="mailto:inspire@opendoorsuk.org"><strong>inspire@opendoorsuk.org</strong></a> or call us on <strong>01993 460015</strong>.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingNine">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseNine" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseNine" data-toggle="collapse" type="button">How will I get a refund if I paid by cheque?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingNine" class="collapse" data-parent="#AccordionStandingStrong" id="collapseNine">
+                    <div class="card-body">
+                      <p>If you paid for your tickets via cheque, then a member of our Inspire team will be in touch with you to ask how you would like to be refunded. A full refund can be provided to you via either bank transfer or cheque.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTen">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseTen" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseTen" data-toggle="collapse" type="button">I would like to come to the event in 2023, but some of my party aren’t able to?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingTen" class="collapse" data-parent="#AccordionStandingStrong" id="collapseTen">
+                    <div class="card-body">
+                      <p>You can request a refund for those tickets that are affected, rather than your whole order. Please see refund instructions on how to do that.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingEleven">
+                    <h2 class="mb-0">
+                      <button aria-controls="collapseEleven" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseEleven" data-toggle="collapse" type="button">Can I donate my ticket?</button>
+                    </h2>
+                  </div>
+                  <div aria-labelledby="headingEleven" class="collapse" data-parent="#AccordionStandingStrong" id="collapseEleven">
+                    <div class="card-body">
+                      <p>No – unfortunately, administrative complications mean that donating your ticket is not possible.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get-involved">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 ml-auto mr-auto section-intro">
+            <h2 id="getinvolved">Get involved</h2>
+            <p>
+              Your support helps persecuted Christians continue to courageously follow Jesus.<br>
+              Together, we can reach those where persecution hits hardest.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="get-involved-slider slider-get-involved">
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="content-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Quick links</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Home">Home</a>
+                </li>
+                <li>
+                  <a href="#" title="Speak Out">Speak Out</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+                <li>
+                  <a href="#" title="Youth">Youth</a>
+                </li>
+                <li>
+                  <a href="#" title="Media">Media</a>
+                </li>
+                <li>
+                  <a href="#" title="Subscribe to Emails">Subscribe to Emails</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Social media</h5>
+            <ul class="footer-menu">
+              <li>
+                <a href="#" target="_blank">Facebook</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Twitter</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Instagram</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-5">
+            <h5>Get involved</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Fundraise for your persecuted family">Fundraise for your persecuted family</a>
+                </li>
+                <li>
+                  <a href="#" title="Get resources for your online church">Get resources for your online church</a>
+                </li>
+                <li>
+                  <a href="#" title="Stuff to share with kids">Stuff to share with kids</a>
+                </li>
+                <li>
+                  <a href="#" title="Support courageous Christians">Support courageous Christians</a>
+                </li>
+                <li>
+                  <a href="#" title="Take a look at our Prayer Diary">Take a look at our Prayer Diary</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 charity-details">
+            <p>
+              <a href="/">
+                <img alt="Open Doors Logo" class="footer-logo" src="images/dist/footer-logo.svg">
+              </a>
+            </p>
+            <p>Registered Charity in England and Wales No. 1125684, Scotland SC043710 and Republic of Ireland 20140984.</p>
+            <p>
+              <a href="#">Contact Details</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row copyright">
+          <div class="col-6">© Copyright 2022&nbsp;Open Doors UK &amp; Ireland</div>
+          <div class="col-6 text-right">
+            <a href="#">Safeguarding</a>&nbsp;|&nbsp;<a href="#">Privacy</a>&nbsp;|&nbsp;<a href="#" target="_blank">Complaints</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/default/default.bundle.js"></script>
+    <script src="js/default/default.preform.bundle.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

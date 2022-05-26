@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/default.bundle.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="https://kit.fontawesome.com/c454b5b31f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header class="banner">
+      <div class="top-navigation">
+        <div class="navbar">
+          <ul class="nav ml-auto">
+            <li class="shopping-cart-status nav-item" data-href="">
+              <a href="#" class="nav-link">
+                <i class="fa fa-shopping-cart"></i>
+                Orders
+                <span class="count">(1)</span>
+              </a>
+            </li>
+            <ul class="nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-sign-in-alt" aria-hidden="true"></i>
+                  Sign In
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span class="fas fa-user-circle" aria-hidden="true"></span>
+                  Register
+                </a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-xl main-navigation">
+        <a class="navbar-brand" href="#">
+          <img src="images/dist/logo.svg" alt="" class="logo">
+        </a>
+        <a href="#" class="btn btn-primary tablet-donate-search ml-auto">Donate</a>
+        <button type="submit" class="btn btn-outline-secondary toggle-search tablet-donate-search" data-toggle="collapse" data-target="#header-search-form-tablet" aria-expanded="false" aria-controls="header-search-form">
+          <i class="fas fa-search"></i>
+          <span class="sr-only">Search</span>
+        </button>
+        <form class="form-inline header-search-form" method="" action="" role="search">
+          <div class="collapse" id="header-search-form-tablet">
+            <input class="form-control search-field" id="qs" name="qs" value="" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary btn-submit-search" type="submit">
+              <i class="fas fa-search"></i>
+              <span class="sr-only">Search</span>
+            </button>
+            <button class="btn toggle-search">
+              <i class="fas fa-envelope fa-2x"></i>
+              <span class="sr-only">Subscription</span>
+            </button>
+          </div>
+        </form>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="weblinks-depth-1 navbar-nav ml-auto" data-weblinks-depth="1">
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="" role="button" title="World Watch List">World Watch List <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="World Watch List">World Watch List</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Explore the Top 50">Explore the Top 50</a>
+                </li>
+                <li>
+                  <a href="#" title="Resources">Resources</a>
+                </li>
+                <li>
+                  <a href="#" title="Advocacy Report" class="active">Advocacy Report</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="About">About <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="About">About</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="What We Do">What We Do</a>
+                </li>
+                <li>
+                  <a href="#" title="Our Story">Our Story</a>
+                </li>
+                <li>
+                  <a href="#" title="Brother Andrew">Brother Andrew</a>
+                </li>
+                <li>
+                  <a href="#" title="Our Values">Our Values</a>
+                </li>
+                <li>
+                  <a href="#" title="Open Doors FAQs">Open Doors FAQs</a>
+                </li>
+                <li>
+                  <a href="#" title="Annual Review">Annual Review</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="Latest">Latest <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="Latest">Latest</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Stories">Stories</a>
+                </li>
+                <li>
+                  <a href="#" title="Magazine">Magazine</a>
+                </li>
+                <li>
+                  <a href="#" title="Annual Gathering: Standing Strong">Annual Gathering: Standing Strong</a>
+                </li>
+                <li>
+                  <a href="#" title="Open Doors Prayer Webinars">Open Doors Prayer Webinars</a>
+                </li>
+                <li>
+                  <a href="#" title="Campaigns">Campaigns</a>
+                </li>
+                <li>
+                  <a href="#" title="- World Watch Top Ten">- World Watch Top Ten</a>
+                </li>
+                <li>
+                  <a href="#" title=" - Hope for the Middle East"> - Hope for the Middle East</a>
+                </li>
+                <li>
+                  <a href="#" title=" - West Africa"> - West Africa</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="Get Involved">Get Involved <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="Get Involved">Get Involved</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Resources">Resources</a>
+                </li>
+                <li>
+                  <a href="#" title="Advocacy">Advocacy</a>
+                </li>
+                <li>
+                  <a href="#" title="Give a Gift">Give a Gift</a>
+                </li>
+                <li>
+                  <a href="#" title="Fundraise">Fundraise</a>
+                </li>
+                <li>
+                  <a href="#" title="Churches">Churches</a>
+                </li>
+                <li>
+                  <a href="#" title="Send A Letter">Send A Letter</a>
+                </li>
+                <li>
+                  <a href="#" title="Volunteer">Volunteer</a>
+                </li>
+                <li>
+                  <a href="#" title="Leave a Legacy">Leave a Legacy</a>
+                </li>
+                <li>
+                  <a href="#" title="Give in Memory">Give in Memory</a>
+                </li>
+                <li>
+                  <a href="#" title="Pray with us">Pray with us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="standard-page" role="document">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 ml-auto mr-auto">
+            <h1>Open Doors magazine</h1>
+            <div class="float-left-wrapper">
+              <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2022-May-Mag-WEB.pdf" target="_blank">
+                <img src="images/dist/magazine/2203-365-magazine.jpg">
+              </a>
+            </div>
+            <h3>May/June 2022</h3>
+            <p>Pastor Andrew’s community in Nigeria was devastated by Islamic militants – part of an increasing trend of violence in the region. They killed some Christians, destroyed the church and burned down almost all the houses. When Pastor Andrew and his congregation returned, they didn’t despair. They immediately started rebuilding the church. In this edition of the magazine, discover how you can help turn despair into hope in West Africa.</p>
+            <p>
+              <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2022-May-Mag-WEB.pdf" target="_blank">View the Magazine</a> | <a href="https://media.opendoorsuk.org/document/pdf/Prayer%20Diary.pdf" target="_blank">View Prayer Diary</a>.
+            </p>
+            <hr>
+            <p>&nbsp;</p>
+            <h4>Previous Issues</h4>
+            <div class="float-left-wrapper">
+              <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2022-March-Mag-WEB.pdf" target="_blank">
+                <img src="images/dist/magazine/365-mar-mag.jpg">
+              </a>
+            </div>
+            <p>
+              <strong>Invisible: Persecuted women still need to see change</strong>
+            </p>
+            <p>When Sarah (name changed) in North Africa became a Christian, her family threw her out. Later, her husband did the same thing. As a woman, she was particularly vulnerable. Millions of women like Sarah are persecuted for their faith and their gender. In this magazine, you can read how Sarah is seeing change, thanks to the gifts and prayers of Open Doors supporters.</p>
+            <p>You can <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2022-March-Mag-WEB.pdf" target="_blank">view the PDF here</a>.</p>
+            <hr>
+            <p>&nbsp;</p>
+            <div class="float-left-wrapper">
+              <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2021-November-Mag-WEB.pdf?_ga=2.120572424.1646368963.1653230647-179004690.1652790642" target="_blank">
+                <img src="images/dist/magazine/365-nov-mag-21.jpg">
+              </a>
+            </div>
+            <p>
+              <strong>God is always with me: Persecuted children find hope at Christmas</strong>
+            </p>
+            <p>This Christmas, there are many families around the world who are remembering someone who is missing. For Rafif’s family in Iraq, and Sele’s family in Nigeria, that’s their dads – both of whom were killed because of their Christian faith. In this magazine, you can see how they are continuing to find hope in God’s love, and how you’re helping them know that their worldwide family hasn’t forgotten them.</p>
+            <p>You can <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2021-November-Mag-WEB.pdf" target="_blank">view the PDF here</a>.</p>
+            <hr>
+            <p>&nbsp;</p>
+            <div class="float-left-wrapper">
+              <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2021-September-Magazine.pdf?_ga=2.120572424.1646368963.1653230647-179004690.1652790642" target="_blank">
+                <img src="images/dist/magazine/365-sep-oct-mag-ps.jpg">
+              </a>
+            </div>
+            <p>
+              <strong>Put Hope at the Centre: Supporting Persecuted Christians in the Middle East</strong>
+            </p>
+            <p>In this issue of the magazine, you’ll meet Anwar* - the son of a Muslim leader in Syria. When he became a Christian, his family threw him out – but, thanks to Open Doors supporters, a local Centre of Hope was able to give Anwar somewhere to stay and hope for the future. “If it weren’t for the Centre of Hope, I don’t know what I would have done,” says Anwar. “I would be homeless, hungry and alone.”</p>
+            <p>
+              <em>*Name changed for security reasons</em>
+            </p>
+            <p>You can <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2021-September-Magazine.pdf" target="_blank">view the PDF here</a>.</p>
+            <hr>
+            <p>&nbsp;</p>
+            <div class="float-left-wrapper">
+              <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2021-July-Mag-web.pdf" target="_blank">
+                <img src="images/dist/magazine/365-july-mag-pack.jpg">
+              </a>
+            </div>
+            <p>
+              <strong>Caught between two crises: Indian Christians are facing pandemic and persecution</strong>
+            </p>
+            <p>For Christians in India, Covid-19 is only half the story. As well as being disproportionately impacted by the effects of the pandemic, Indian Christians also face violence and rejection fuelled by Hindu extremist propaganda. Vinita (name changed) was savagely attacked in her home while she was praying with her pastor and his wife. When they got to hospital, they were denied treatment because of this faith. Learn more&nbsp;– and find out how your prayers and support are helping Indian believers.</p>
+            <p>You can <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2021-July-Mag-web.pdf" target="_blank">view the PDF here</a>.</p>
+            <hr>
+            <p>&nbsp;</p>
+            <div class="float-left-wrapper">
+              <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2021-May-Mag-WEB.pdf" target="_blank">
+                <img src="images/dist/magazine/365-may-mag-1.jpg">
+              </a>
+            </div>
+            <p>
+              <strong>What would you do if the secret police demanded names?</strong>
+            </p>
+            <p>Imagine you are under police interrogation and asked to write down the names of Christians you know, otherwise your family could be in danger. This is exactly what Taher* experienced. You can read his extraordinary story in the latest magazine – one that reinforces the acute dangers facing many secret believers from Muslim backgrounds in the Middle East, and why your prayers and support are so precious to them.</p>
+            <p>
+              <em>*Name changed</em>
+            </p>
+            <p>You can <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2021-May-Mag-WEB.pdf?_ga=2.19770936.1646368963.1653230647-179004690.1652790642" target="_blank">view the PDF here</a>.</p>
+            <hr>
+            <p>&nbsp;</p>
+            <div class="float-left-wrapper">
+              <a href="https://medhttps://media.opendoorsuk.org/document/pdf/OD-UK-2021-March-mag-web.pdf" target="_blank">
+                <img src="images/dist/magazine/365-march-mag-21.jpg">
+              </a>
+            </div>
+            <p>
+              <strong>Empowered to empower: See. Change. for persecuted women</strong>
+            </p>
+            <p>Imagine you are persecuted because of your faith – and especially vulnerable because of your gender.</p>
+            <p>That’s the story of millions of Christian women around the world, and why the See. Change. campaign continues to acknowledge and respond to their stories. In this magazine, you can read about Sozan from Syria and Peninah from Kenya – two very different experiences, but both of which the double vulnerability of Christian women.</p>
+            <p>You can <a href="https://media.opendoorsuk.org/document/pdf/OD-UK-2021-March-mag-web.pdf" target="_blank">view the PDF here</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get-involved">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 ml-auto mr-auto section-intro">
+            <h2 id="getinvolved">Get involved</h2>
+            <p>
+              Your support helps persecuted Christians continue to courageously follow Jesus.<br>
+              Together, we can reach those where persecution hits hardest.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="get-involved-slider slider-get-involved">
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="content-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Quick links</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Home">Home</a>
+                </li>
+                <li>
+                  <a href="#" title="Speak Out">Speak Out</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+                <li>
+                  <a href="#" title="Youth">Youth</a>
+                </li>
+                <li>
+                  <a href="#" title="Media">Media</a>
+                </li>
+                <li>
+                  <a href="#" title="Subscribe to Emails">Subscribe to Emails</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Social media</h5>
+            <ul class="footer-menu">
+              <li>
+                <a href="#" target="_blank">Facebook</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Twitter</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Instagram</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-5">
+            <h5>Get involved</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Fundraise for your persecuted family">Fundraise for your persecuted family</a>
+                </li>
+                <li>
+                  <a href="#" title="Get resources for your online church">Get resources for your online church</a>
+                </li>
+                <li>
+                  <a href="#" title="Stuff to share with kids">Stuff to share with kids</a>
+                </li>
+                <li>
+                  <a href="#" title="Support courageous Christians">Support courageous Christians</a>
+                </li>
+                <li>
+                  <a href="#" title="Take a look at our Prayer Diary">Take a look at our Prayer Diary</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 charity-details">
+            <p>
+              <a href="/">
+                <img alt="Open Doors Logo" class="footer-logo" src="images/dist/footer-logo.svg">
+              </a>
+            </p>
+            <p>Registered Charity in England and Wales No. 1125684, Scotland SC043710 and Republic of Ireland 20140984.</p>
+            <p>
+              <a href="#">Contact Details</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row copyright">
+          <div class="col-6">© Copyright 2022&nbsp;Open Doors UK &amp; Ireland</div>
+          <div class="col-6 text-right">
+            <a href="#">Safeguarding</a>&nbsp;|&nbsp;<a href="#">Privacy</a>&nbsp;|&nbsp;<a href="#" target="_blank">Complaints</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/default/default.bundle.js"></script>
+    <script src="js/default/default.preform.bundle.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
