@@ -204,94 +204,106 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1>Latest stories</h1>
+            <h1>Church Resources</h1>
           </div>
         </div>
         <form class="row latest-stories__filter">
-          <div class="form-group col-md-12 col-lg-5"></div>
-          <div class="form-group col-12 col-md-4 col-lg-2 offset-lg-1">
-            <label>Filter by:</label>
-            <select class="form-control" id="filter_by_one">
-              <option value="" selected="selected">-- Country --</option>
-              <option value="Afghanistan">Afghanistan</option>
-              <option value="Algeria">Algeria</option>
-              <option value="Bangladesh">Bangladesh</option>
-              <option value="Bhutan">Bhutan</option>
-              <option value="Brunei">Brunei</option>
-              <option value="Burkina Faso">Burkina Faso</option>
-              <option value="Cameroon">Cameroon</option>
-              <option value="Central African Republic">Central African Republic</option>
-              <option value="China">China</option>
-              <option value="Colombia">Colombia</option>
-              <option value="Cuba">Cuba</option>
-              <option value="Democratic Republic of Congo">Democratic Republic of Congo</option>
-              <option value="Egypt">Egypt</option>
-              <option value="Eritrea">Eritrea</option>
-              <option value="Ethiopia">Ethiopia</option>
-              <option value="India">India</option>
-              <option value="Indonesia">Indonesia</option>
-              <option value="Iran">Iran</option>
-              <option value="Iraq">Iraq</option>
-              <option value="Jordan">Jordan</option>
-              <option value="Kazakhstan">Kazakhstan</option>
-              <option value="Kuwait">Kuwait</option>
-              <option value="Laos">Laos</option>
-              <option value="Libya">Libya</option>
-              <option value="Malaysia">Malaysia</option>
-              <option value="Maldives">Maldives</option>
-              <option value="Mali">Mali</option>
-              <option value="Mauritania">Mauritania</option>
-              <option value="Mexico">Mexico</option>
-              <option value="Morocco">Morocco</option>
-              <option value="Mozambique">Mozambique</option>
-              <option value="Myanmar">Myanmar</option>
-              <option value="Nepal">Nepal</option>
-              <option value="Niger">Niger</option>
-              <option value="Nigeria">Nigeria</option>
-              <option value="North Korea">North Korea</option>
-              <option value="Oman">Oman</option>
-              <option value="Pakistan">Pakistan</option>
-              <option value="Qatar">Qatar</option>
-              <option value="Saudi Arabia">Saudi Arabia</option>
-              <option value="Somalia">Somalia</option>
-              <option value="Sudan">Sudan</option>
-              <option value="Syria">Syria</option>
-              <option value="Tajikistan">Tajikistan</option>
-              <option value="Tunisia">Tunisia</option>
-              <option value="Turkey">Turkey</option>
-              <option value="Turkmenistan">Turkmenistan</option>
-              <option value="Uzbekistan">Uzbekistan</option>
-              <option value="Vietnam">Vietnam</option>
-              <option value="Yemen">Yemen</option>
+          <div class="form-group col-6 col-md-4 col-lg-3">
+            <label>Filter by: <em><strong>Theme</strong></em></label>
+            <select class="form-control" id="filter_by_four">
+              <option value="" selected="selected">-- Select --</option>
+              <option value="Compassion">Compassion</option>
+              <option value="Discipleship">Discipleship</option>
+              <option value="Easter">Easter</option>
+              <option value="Faith">Faith</option>
+              <option value="Generosity">Generosity</option>
+              <option value="Isolation">Isolation</option>
+              <option value="Mothering Sunday">Mothering Sunday</option>
+              <option value="Pentecost">Pentecost</option>
+              <option value="Prayer">Prayer</option>
+              <option value="Scripture">Scripture</option>
             </select>
           </div>
-          <div class="form-group col-6 col-md-4 col-lg-2">
-            <label>Filter by:</label>
+          <div class="form-group col-6 col-md-4 col-lg-3">
+            <label>Filter by: <em><strong>Resource Type</strong></em></label>
+            <select class="form-control" id="filter_by_three">
+              <option value="" selected="selected">-- Select --</option>
+              <option value="Church Service">Church Service</option>
+              <option value="Prayers">Prayers</option>
+              <option value="Small Group">Small Group</option>
+              <option value="Testimonies">Testimonies</option>
+            </select>
+          </div>
+          <div class="form-group col-6 col-md-4 col-lg-3">
+            <label>Filter by: <em><strong>File Type</strong></em></label>
             <select class="form-control" id="filter_by_two">
-              <option value="" selected="selected">-- Story type --</option>
-              <option value="Advocacy">Advocacy</option>
-              <option value="Blog">Blog</option>
-              <option value="Impact">Impact</option>
-              <option value="Interview">Interview</option>
-              <option value="News">News</option>
-              <option value="Resources">Resources</option>
-              <option value="Story">Story</option>
+              <option value="" selected="selected">-- Select --</option>
+              <option value="PDF">PDF</option>
+              <option value="PowerPoint">PowerPoint</option>
               <option value="Video">Video</option>
             </select>
           </div>
-          <div class="form-group col-6 col-md-4 col-lg-2">
-            <label>Sort by:</label>
-            <select class="form-control" id="sort_by">
-              <option value="" selected="selected">-- Publish date --</option>
-              <option value="acs">ACS</option>
-              <option value="desc">DESC</option>
+          <div class="form-group col-6 col-md-4 col-lg-3">
+            <label>Filter by: <em><strong>Country</strong></em></label>
+            <select class="form-control" id="filter_by_one">
+              <option value="" selected="selected">-- Select --</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="North Korea">North Korea</option>
+              <option value="Somalia">Somalia</option>
+              <option value="Libya">Libya</option>
+              <option value="Yemen">Yemen</option>
+              <option value="Eritrea">Eritrea</option>
+              <option value="Nigeria">Nigeria</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="Iran">Iran</option>
+              <option value="India">India</option>
+              <option value="Saudi Arabia">Saudi Arabia</option>
+              <option value="Myanmar">Myanmar</option>
+              <option value="Sudan">Sudan</option>
+              <option value="Iraq">Iraq</option>
+              <option value="Syria">Syria</option>
+              <option value="Maldives">Maldives</option>
+              <option value="China">China</option>
+              <option value="Qatar">Qatar</option>
+              <option value="Vietnam">Vietnam</option>
+              <option value="Egypt">Egypt</option>
+              <option value="Uzbekistan">Uzbekistan</option>
+              <option value="Algeria">Algeria</option>
+              <option value="Mauritania">Mauritania</option>
+              <option value="Mali">Mali</option>
+              <option value="Turkmenistan">Turkmenistan</option>
+              <option value="Laos">Laos</option>
+              <option value="Morocco">Morocco</option>
+              <option value="Indonesia">Indonesia</option>
+              <option value="Bangladesh">Bangladesh</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Central African Republic">Central African Republic</option>
+              <option value="Burkina Faso">Burkina Faso</option>
+              <option value="Niger">Niger</option>
+              <option value="Bhutan">Bhutan</option>
+              <option value="Tunisia">Tunisia</option>
+              <option value="Oman">Oman</option>
+              <option value="Cuba">Cuba</option>
+              <option value="Ethiopia">Ethiopia</option>
+              <option value="Jordan">Jordan</option>
+              <option value="Democratic Republic of Congo">Democratic Republic of Congo</option>
+              <option value="Mozambique">Mozambique</option>
+              <option value="Turkey">Turkey</option>
+              <option value="Mexico">Mexico</option>
+              <option value="Cameroon">Cameroon</option>
+              <option value="Tajikistan">Tajikistan</option>
+              <option value="Brunei">Brunei</option>
+              <option value="Kazakhstan">Kazakhstan</option>
+              <option value="Nepal">Nepal</option>
+              <option value="Kuwait">Kuwait</option>
+              <option value="Malaysia">Malaysia</option>
             </select>
           </div>
         </form>
         <div class="row">
           <div class="col">
             <div class="latest-stories__header">
-              <h6>Latest stories</h6>
+              <h6>Church Resources</h6>
             </div>
           </div>
         </div>
@@ -781,6 +793,7 @@
         </div>
       </div>
     </footer>
+
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

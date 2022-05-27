@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/default.bundle.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="https://kit.fontawesome.com/c454b5b31f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header class="banner">
+      <nav class="navbar navbar-expand-xl main-navigation">
+        <a class="navbar-brand" href="/">
+          <img src="images/dist/logo.svg" alt="Open Doors Logo">
+        </a>
+        <img src="images/dist/logo-fundraising-regulator.png" alt="Registered with Fundraising Regulator" class="fr-logo">
+      </nav>
+    </header>
+
+    <form>
+      <section class="alternative-page donate-step-one" role="document">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center text-uppercase">I want to give</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="donate-banner position-relative">
+                <img class="_absolute-image" src="images/dist/banner/1400-india-covid.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 ml-auto mr-auto">
+              <div class="donate-step-one__form-wrapper">
+                <div class="donate-step-one__form">
+                  <div class="donate-step-one__donation-type btn-group" role="group">
+                    <button id="monthly" formnovalidate="formnovalidate" class="btn btn-secondary active">Monthly</button>
+                    <button id="once" formnovalidate="formnovalidate" class="btn btn-secondary">Once</button>
+                  </div>
+                  <select name="" id="SelectedFund" class="form-control valid" aria-invalid="false" disabled style="appearance: none"> // убирать у select disabled и style="appearance: none" если выбрано ONCE
+                    <option value="Where Most Needed">Where Most Needed</option>
+                    <option value="West Africa General">West Africa</option>
+                    <option value="Womens Campaign">Womens Campaign</option>
+                    <option value="WWL Top 10">Top Ten Most Persecuted</option>
+                    <option value="Hope for the Middle East">Hope for the Middle East</option>
+                    <option value="Nov/Dec Children Appeal">Children</option>
+                    <option value="India - General (1)">India</option>
+                    <option value="Asia - General">Asia</option>
+                  </select>
+                  <div class="donate-step-one__options">
+                    <div class="option">
+                      <div class="thumbnail one">
+                        <span class="header">£22</span>
+                        <img class="_absolute-image" src="images/dist/small-portret/dontate-22gh.jpg" alt="">
+                      </div>
+                      <span>could provide a Bible to a believer facing extreme persecution</span>
+                    </div>
+                    <div class="option">
+                      <div class="thumbnail two">
+                        <span class="header">£52</span>
+                        <img class="_absolute-image" src="images/dist/small-portret/dontate-52gh.jpg" alt="">
+                      </div>
+                      <span>could provide trauma care for two victims of violent persecution</span>
+                    </div>
+                    <div class="option">
+                      <div class="thumbnail three">
+                        <span class="header">£56</span>
+                        <img class="_absolute-image" src="images/dist/small-portret/dontate-64gh.jpg" alt="">
+                      </div>
+                      <span>could support a persecuted Christian with urgent aid</span>
+                    </div>
+                  </div>
+                  <div id="PurchaseSummary" class="donate-step-one__amount-box">
+                    <label id="amount" for="amount">Enter amount</label>
+                    <div class="input-group mb-2 mr-sm-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">£</div>
+                      </div>
+                      <input name="" type="text" value="" id="" class="form-control" placeholder="0.00">
+                    </div>
+                  </div>
+                  <input type="button" value="Next" id="NextButton" class="btn btn-primary button next submit-btn">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </form>
+
+    <footer class="content-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Quick links</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Home">Home</a>
+                </li>
+                <li>
+                  <a href="#" title="Speak Out">Speak Out</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+                <li>
+                  <a href="#" title="Youth">Youth</a>
+                </li>
+                <li>
+                  <a href="#" title="Media">Media</a>
+                </li>
+                <li>
+                  <a href="#" title="Subscribe to Emails">Subscribe to Emails</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Social media</h5>
+            <ul class="footer-menu">
+              <li>
+                <a href="#" target="_blank">Facebook</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Twitter</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Instagram</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-5">
+            <h5>Get involved</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Fundraise for your persecuted family">Fundraise for your persecuted family</a>
+                </li>
+                <li>
+                  <a href="#" title="Get resources for your online church">Get resources for your online church</a>
+                </li>
+                <li>
+                  <a href="#" title="Stuff to share with kids">Stuff to share with kids</a>
+                </li>
+                <li>
+                  <a href="#" title="Support courageous Christians">Support courageous Christians</a>
+                </li>
+                <li>
+                  <a href="#" title="Take a look at our Prayer Diary">Take a look at our Prayer Diary</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 charity-details">
+            <p>
+              <a href="/">
+                <img alt="Open Doors Logo" class="footer-logo" src="images/dist/footer-logo.svg">
+              </a>
+            </p>
+            <p>Registered Charity in England and Wales No. 1125684, Scotland SC043710 and Republic of Ireland 20140984.</p>
+            <p>
+              <a href="#">Contact Details</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row copyright">
+          <div class="col-6">© Copyright 2022&nbsp;Open Doors UK &amp; Ireland</div>
+          <div class="col-6 text-right">
+            <a href="#">Safeguarding</a>&nbsp;|&nbsp;<a href="#">Privacy</a>&nbsp;|&nbsp;<a href="#" target="_blank">Complaints</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/default/default.bundle.js"></script>
+    <script src="js/default/default.preform.bundle.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

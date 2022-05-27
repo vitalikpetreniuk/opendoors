@@ -1,0 +1,9 @@
+.donate-step-one {
+  &__options {
+    .option {
+      span.header {
+        z-index: 1;
+      }
+    }
+  }
+}
