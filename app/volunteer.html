@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/default.bundle.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="https://kit.fontawesome.com/c454b5b31f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header class="banner">
+      <div class="top-navigation">
+        <div class="navbar">
+          <ul class="nav ml-auto">
+            <li class="shopping-cart-status nav-item" data-href="">
+              <a href="#" class="nav-link">
+                <i class="fa fa-shopping-cart"></i>
+                Orders
+                <span class="count">(1)</span>
+              </a>
+            </li>
+            <ul class="nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-sign-in-alt" aria-hidden="true"></i>
+                  Sign In
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span class="fas fa-user-circle" aria-hidden="true"></span>
+                  Register
+                </a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-xl main-navigation">
+        <a class="navbar-brand" href="#">
+          <img src="images/dist/logo.svg" alt="" class="logo">
+        </a>
+        <a href="#" class="btn btn-primary tablet-donate-search ml-auto">Donate</a>
+        <button type="submit" class="btn btn-outline-secondary toggle-search tablet-donate-search" data-toggle="collapse" data-target="#header-search-form-tablet" aria-expanded="false" aria-controls="header-search-form">
+          <i class="fas fa-search"></i>
+          <span class="sr-only">Search</span>
+        </button>
+        <form class="form-inline header-search-form" method="" action="" role="search">
+          <div class="collapse" id="header-search-form-tablet">
+            <input class="form-control search-field" id="qs" name="qs" value="" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary btn-submit-search" type="submit">
+              <i class="fas fa-search"></i>
+              <span class="sr-only">Search</span>
+            </button>
+            <button class="btn toggle-search">
+              <i class="fas fa-envelope fa-2x"></i>
+              <span class="sr-only">Subscription</span>
+            </button>
+          </div>
+        </form>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="weblinks-depth-1 navbar-nav ml-auto" data-weblinks-depth="1">
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="" role="button" title="World Watch List">World Watch List <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="World Watch List">World Watch List</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Explore the Top 50">Explore the Top 50</a>
+                </li>
+                <li>
+                  <a href="#" title="Resources">Resources</a>
+                </li>
+                <li>
+                  <a href="#" title="Advocacy Report" class="active">Advocacy Report</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="About">About <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="About">About</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="What We Do">What We Do</a>
+                </li>
+                <li>
+                  <a href="#" title="Our Story">Our Story</a>
+                </li>
+                <li>
+                  <a href="#" title="Brother Andrew">Brother Andrew</a>
+                </li>
+                <li>
+                  <a href="#" title="Our Values">Our Values</a>
+                </li>
+                <li>
+                  <a href="#" title="Open Doors FAQs">Open Doors FAQs</a>
+                </li>
+                <li>
+                  <a href="#" title="Annual Review">Annual Review</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="Latest">Latest <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="Latest">Latest</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Stories">Stories</a>
+                </li>
+                <li>
+                  <a href="#" title="Magazine">Magazine</a>
+                </li>
+                <li>
+                  <a href="#" title="Annual Gathering: Standing Strong">Annual Gathering: Standing Strong</a>
+                </li>
+                <li>
+                  <a href="#" title="Open Doors Prayer Webinars">Open Doors Prayer Webinars</a>
+                </li>
+                <li>
+                  <a href="#" title="Campaigns">Campaigns</a>
+                </li>
+                <li>
+                  <a href="#" title="- World Watch Top Ten">- World Watch Top Ten</a>
+                </li>
+                <li>
+                  <a href="#" title=" - Hope for the Middle East"> - Hope for the Middle East</a>
+                </li>
+                <li>
+                  <a href="#" title=" - West Africa"> - West Africa</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="Get Involved">Get Involved <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="Get Involved">Get Involved</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Resources">Resources</a>
+                </li>
+                <li>
+                  <a href="#" title="Advocacy">Advocacy</a>
+                </li>
+                <li>
+                  <a href="#" title="Give a Gift">Give a Gift</a>
+                </li>
+                <li>
+                  <a href="#" title="Fundraise">Fundraise</a>
+                </li>
+                <li>
+                  <a href="#" title="Churches">Churches</a>
+                </li>
+                <li>
+                  <a href="#" title="Send A Letter">Send A Letter</a>
+                </li>
+                <li>
+                  <a href="#" title="Volunteer">Volunteer</a>
+                </li>
+                <li>
+                  <a href="#" title="Leave a Legacy">Leave a Legacy</a>
+                </li>
+                <li>
+                  <a href="#" title="Give in Memory">Give in Memory</a>
+                </li>
+                <li>
+                  <a href="#" title="Pray with us">Pray with us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="standard-page press" role="document">
+      <div class="container">
+        <section class="standard-page press" role="document">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h1>Volunteer</h1>
+                <figure>
+                  <img src="images/dist/banner/volunteer-b.jpg">
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="standard-page" role="document">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-5">
+                <h3>Join the volunteer team</h3>
+                <p>Could you use your time, skills and passion to help raise awareness and action for persecuted Christians? Together, we can support those who follow Jesus no matter the cost.</p>
+              </div>
+              <div class="col-xl-6 ml-auto">
+                <div class="responsive-wrapper">
+                  <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://player.vimeo.com/video/557531339" width="560"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="features-block">
+          <div class="features-block__listing">
+            <div class="features-block__item">
+              <div class="features-block__thumbnail">
+                <a href="#">
+                  <img alt="Explore the 50 countries where being a christian costs the most" src="images/dist/posts/Map-explore-760-520.jpg">
+                </a>
+                <div class="features-block__label">
+                  <span>Explore the top 50</span>
+                </div>
+              </div>
+              <div class="features-block__contents">
+                <a class="title" href="#">Discover the 50 countries in which following Jesus costs the most: read stories, testimonies and prayer points for each country.</a>
+                <a class="btn btn-secondary" href="#">Find out More</a>
+              </div>
+            </div>
+            <div class="features-block__item">
+              <div class="features-block__thumbnail">
+                <a href="#">
+                  <img alt="Give a Gift" src="images/dist/posts/Top-10-donation-760-520.jpg">
+                </a>
+                <div class="features-block__label">
+                  <span>Give a gift</span>
+                </div>
+              </div>
+              <div class="features-block__contents">
+                <a class="title" href="#">Your gift today can support Christians facing extreme persecution – with vital food and medicine, precious Bibles and long-term support.</a>
+                <a class="btn btn-secondary" href="#">Find out More</a>
+              </div>
+            </div>
+            <div class="features-block__item">
+              <div class="features-block__thumbnail">
+                <a href="#">
+                  <img alt="World Watch List Resources" src="images/dist/posts/Resources-760-520.jpg">
+                </a>
+                <div class="features-block__label">
+                  <span>World Watch List resources</span>
+                </div>
+              </div>
+              <div class="features-block__contents">
+                <a class="title" href="#">Free Open Doors World Watch List 2022 resources can help you, your family and your church learn about and pray for the persecuted church.</a>
+                <a class="btn btn-secondary" href="#">Find out More</a>
+              </div>
+            </div>
+            <div class="features-block__item">
+              <div class="features-block__thumbnail">
+                <a href="#">
+                  <img alt="Prayer for Afghanistan" src="images/dist/posts/Afg-country-profile-760-520.jpg">
+                </a>
+                <div class="features-block__label">
+                  <span>Pray for Afghanistan</span>
+                </div>
+              </div>
+              <div class="features-block__contents">
+                <a class="title" href="#">Join us in praying throughout the year for Afghan Christians and their country.</a>
+                <a class="btn btn-secondary" href="#">Find out more</a>
+              </div>
+            </div>
+            <div class="features-block__item">
+              <div class="features-block__thumbnail">
+                <a href="#">
+                  <img alt="Explore the 50 countries where being a christian costs the most" src="images/dist/posts/Map-explore-760-520.jpg">
+                </a>
+                <div class="features-block__label">
+                  <span>Explore the top 50</span>
+                </div>
+              </div>
+              <div class="features-block__contents">
+                <a class="title" href="#">Discover the 50 countries in which following Jesus costs the most: read stories, testimonies and prayer points for each country.</a>
+                <a class="btn btn-secondary" href="#">Find out More</a>
+              </div>
+            </div>
+            <div class="features-block__item">
+              <div class="features-block__thumbnail">
+                <a href="#">
+                  <img alt="Give a Gift" src="images/dist/posts/Top-10-donation-760-520.jpg">
+                </a>
+                <div class="features-block__label">
+                  <span>Give a gift</span>
+                </div>
+              </div>
+              <div class="features-block__contents">
+                <a class="title" href="#">Your gift today can support Christians facing extreme persecution – with vital food and medicine, precious Bibles and long-term support.</a>
+                <a class="btn btn-secondary" href="#">Find out More</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="faqs-resources">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-8 ml-auto mr-auto">
+                <div class="faqs">
+                  <h2 class="text-center">FAQs</h2>
+                  <div class="accordion" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <button aria-controls="collapseOne" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseOne" data-toggle="collapse" type="button">Can I book someone from Open Doors to speak at one of our church gatherings?</button>
+                        </h2>
+                      </div>
+                      <div aria-labelledby="headingOne" class="collapse" data-parent="#accordionExample" id="collapseOne">
+                        <div class="card-body">
+                          We’d love to come and serve you in this way. Please head to the <a href="#">Book a speaker</a> section and get in touch that way. We look forward to hearing from you.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button aria-controls="collapseTwo" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseTwo" data-toggle="collapse" type="button">How will connection to the persecuted church help my own church?</button>
+                        </h2>
+                      </div>
+                      <div aria-labelledby="headingTwo" class="collapse" data-parent="#accordionExample" id="collapseTwo">
+                        <div class="card-body">
+                          As Christians, we’re part of the global church family and we know each part needs each other. The testimonies of living for Jesus under extreme pressure and persecution have so much to teach us about following Jesus right where we are.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <button aria-controls="collapseThree" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseThree" data-toggle="collapse" type="button">Do you charge for a speaker to come to our church?</button>
+                        </h2>
+                      </div>
+                      <div aria-labelledby="headingThree" class="collapse" data-parent="#accordionExample" id="collapseThree">
+                        <div class="card-body">
+                          We don’t charge, but would appreciate travel expenses being covered and the opportunity to invite your church to stand alongside persecuted family through praying, speaking up and giving.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                          <button aria-controls="collapseFour" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseFour" data-toggle="collapse" type="button">Is there an opportunity to travel to the field with Open Doors?</button>
+                        </h2>
+                      </div>
+                      <div aria-labelledby="headingFour" class="collapse" data-parent="#accordionExample" id="collapseFour">
+                        <div class="card-body">
+                          At present we aren’t offering opportunities to meet with persecuted Christians in their home countries. We hope to have travel opportunities next year.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                          <button aria-controls="collapseFive" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseFive" data-toggle="collapse" type="button">What is the best way to send money to support Open Doors?</button>
+                        </h2>
+                      </div>
+                      <div aria-labelledby="headingFive" class="collapse" data-parent="#accordionExample" id="collapseFive">
+                        <div class="card-body">You can give as a church online <a href="#">here</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="get-involved">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 ml-auto mr-auto section-intro">
+            <h2 id="getinvolved">Get involved</h2>
+            <p>
+              Your support helps persecuted Christians continue to courageously follow Jesus.<br>
+              Together, we can reach those where persecution hits hardest.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="get-involved-slider slider-get-involved">
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="content-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Quick links</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Home">Home</a>
+                </li>
+                <li>
+                  <a href="#" title="Speak Out">Speak Out</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+                <li>
+                  <a href="#" title="Youth">Youth</a>
+                </li>
+                <li>
+                  <a href="#" title="Media">Media</a>
+                </li>
+                <li>
+                  <a href="#" title="Subscribe to Emails">Subscribe to Emails</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Social media</h5>
+            <ul class="footer-menu">
+              <li>
+                <a href="#" target="_blank">Facebook</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Twitter</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Instagram</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-5">
+            <h5>Get involved</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Fundraise for your persecuted family">Fundraise for your persecuted family</a>
+                </li>
+                <li>
+                  <a href="#" title="Get resources for your online church">Get resources for your online church</a>
+                </li>
+                <li>
+                  <a href="#" title="Stuff to share with kids">Stuff to share with kids</a>
+                </li>
+                <li>
+                  <a href="#" title="Support courageous Christians">Support courageous Christians</a>
+                </li>
+                <li>
+                  <a href="#" title="Take a look at our Prayer Diary">Take a look at our Prayer Diary</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 charity-details">
+            <p>
+              <a href="/">
+                <img alt="Open Doors Logo" class="footer-logo" src="images/dist/footer-logo.svg">
+              </a>
+            </p>
+            <p>Registered Charity in England and Wales No. 1125684, Scotland SC043710 and Republic of Ireland 20140984.</p>
+            <p>
+              <a href="#">Contact Details</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row copyright">
+          <div class="col-6">© Copyright 2022&nbsp;Open Doors UK &amp; Ireland</div>
+          <div class="col-6 text-right">
+            <a href="#">Safeguarding</a>&nbsp;|&nbsp;<a href="#">Privacy</a>&nbsp;|&nbsp;<a href="#" target="_blank">Complaints</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/default/default.bundle.js"></script>
+    <script src="js/default/default.preform.bundle.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
