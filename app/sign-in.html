@@ -200,7 +200,52 @@
       </nav>
     </header>
 
-    
+    <section class="alternative-page" role="document">
+      <div class="container alternative-page__wrapper">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <form action="" class="od-narrow-form">
+              <div class="form-horizontal">
+                <h1>Sign in with your account</h1>
+                <div class="validation-summary-errors alert alert-block alert-danger">
+                  <ul>
+                    <li>Invalid sign-in attempt.</li>
+                  </ul>
+                </div>
+                <div class="form-group">
+                  <label class="control-label" for="Username">Username</label>
+                  <input class="form-control" id="Username" name="Username" type="text" value="">
+                </div>
+                <div class="form-group">
+                  <label class="control-label" for="Password">Password</label>
+                  <input class="form-control" data-val="true" data-val-required="The Password field is required." id="Password" name="Password" type="password">
+                </div>
+                <div class="form-group">
+                  <div class="checkbox d-flex justify-content-between mt-4">
+                    <div class="loginlnk">
+                      <a href="#">
+                        <small>Forgot Your Password?</small>
+                      </a>
+                    </div>
+                    <label>
+                      <input data-val="true" data-val-required="The Remember me? field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true">
+                      <input name="RememberMe" type="hidden" value="false">
+                      <small>Remember me?</small>
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <button id="submit-signin-local" class="btn btn-primary">Sign in</button>
+                  <p>
+                    <small>Don't have an account? <a href="#">Sign up</a></small>
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="get-involved">
       <div class="container">

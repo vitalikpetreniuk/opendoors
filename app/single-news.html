@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/default.bundle.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="https://kit.fontawesome.com/c454b5b31f.js" crossorigin="anonymous"></script>
+  </head>
+    <body>
+
+    <header class="banner">
+      <div class="top-navigation">
+        <div class="navbar">
+          <ul class="nav ml-auto">
+            <li class="shopping-cart-status nav-item" data-href="">
+              <a href="#" class="nav-link">
+                <i class="fa fa-shopping-cart"></i>
+                Orders
+                <span class="count">(1)</span>
+              </a>
+            </li>
+            <ul class="nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-sign-in-alt" aria-hidden="true"></i>
+                  Sign In
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span class="fas fa-user-circle" aria-hidden="true"></span>
+                  Register
+                </a>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-xl main-navigation">
+        <a class="navbar-brand" href="#">
+          <img src="images/dist/logo.svg" alt="" class="logo">
+        </a>
+        <a href="#" class="btn btn-primary tablet-donate-search ml-auto">Donate</a>
+        <button type="submit" class="btn btn-outline-secondary toggle-search tablet-donate-search" data-toggle="collapse" data-target="#header-search-form-tablet" aria-expanded="false" aria-controls="header-search-form">
+          <i class="fas fa-search"></i>
+          <span class="sr-only">Search</span>
+        </button>
+        <form class="form-inline header-search-form" method="" action="" role="search">
+          <div class="collapse" id="header-search-form-tablet">
+            <input class="form-control search-field" id="qs" name="qs" value="" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary btn-submit-search" type="submit">
+              <i class="fas fa-search"></i>
+              <span class="sr-only">Search</span>
+            </button>
+            <button class="btn toggle-search">
+              <i class="fas fa-envelope fa-2x"></i>
+              <span class="sr-only">Subscription</span>
+            </button>
+          </div>
+        </form>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="weblinks-depth-1 navbar-nav ml-auto" data-weblinks-depth="1">
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="" role="button" title="World Watch List">World Watch List <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="World Watch List">World Watch List</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Explore the Top 50">Explore the Top 50</a>
+                </li>
+                <li>
+                  <a href="#" title="Resources">Resources</a>
+                </li>
+                <li>
+                  <a href="#" title="Advocacy Report" class="active">Advocacy Report</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="About">About <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="About">About</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="What We Do">What We Do</a>
+                </li>
+                <li>
+                  <a href="#" title="Our Story">Our Story</a>
+                </li>
+                <li>
+                  <a href="#" title="Brother Andrew">Brother Andrew</a>
+                </li>
+                <li>
+                  <a href="#" title="Our Values">Our Values</a>
+                </li>
+                <li>
+                  <a href="#" title="Open Doors FAQs">Open Doors FAQs</a>
+                </li>
+                <li>
+                  <a href="#" title="Annual Review">Annual Review</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="Latest">Latest <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="Latest">Latest</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Stories">Stories</a>
+                </li>
+                <li>
+                  <a href="#" title="Magazine">Magazine</a>
+                </li>
+                <li>
+                  <a href="#" title="Annual Gathering: Standing Strong">Annual Gathering: Standing Strong</a>
+                </li>
+                <li>
+                  <a href="#" title="Open Doors Prayer Webinars">Open Doors Prayer Webinars</a>
+                </li>
+                <li>
+                  <a href="#" title="Campaigns">Campaigns</a>
+                </li>
+                <li>
+                  <a href="#" title="- World Watch Top Ten">- World Watch Top Ten</a>
+                </li>
+                <li>
+                  <a href="#" title=" - Hope for the Middle East"> - Hope for the Middle East</a>
+                </li>
+                <li>
+                  <a href="#" title=" - West Africa"> - West Africa</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a aria-expanded="false" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" title="Get Involved">Get Involved <span aria-hidden="true" class="caret"></span></a>
+              <ul class="weblinks-depth-2 dropdown-menu" data-weblinks-depth="2" role="menu">
+                <li>
+                  <a href="#" title="Get Involved">Get Involved</a>
+                  <div class="description"></div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#" title="Resources">Resources</a>
+                </li>
+                <li>
+                  <a href="#" title="Advocacy">Advocacy</a>
+                </li>
+                <li>
+                  <a href="#" title="Give a Gift">Give a Gift</a>
+                </li>
+                <li>
+                  <a href="#" title="Fundraise">Fundraise</a>
+                </li>
+                <li>
+                  <a href="#" title="Churches">Churches</a>
+                </li>
+                <li>
+                  <a href="#" title="Send A Letter">Send A Letter</a>
+                </li>
+                <li>
+                  <a href="#" title="Volunteer">Volunteer</a>
+                </li>
+                <li>
+                  <a href="#" title="Leave a Legacy">Leave a Legacy</a>
+                </li>
+                <li>
+                  <a href="#" title="Give in Memory">Give in Memory</a>
+                </li>
+                <li>
+                  <a href="#" title="Pray with us">Pray with us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="standard-page story">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 ml-auto mr-auto">
+            <div class="story__header-info">
+              <div class="category small-label">
+                <span>News</span>
+              </div>
+              <small>26 May 2022</small>
+            </div>
+            <h1>Pray with Saleha in Afghanistan, who found her true calling in her loss</h1>
+            <p></p>
+            <p>Please continue to pray for our brothers and sisters from Afghanistan, which is now <a href="#" target="_blank">the most dangerous place in the world to be a Christian</a>.</p>
+            <p></p>
+            <hr>
+            <div class="d-flex">
+              <div class="story__author-avatar">R</div>
+              <div class="story__author">
+                <strong>Rebecca</strong>
+                <br>
+                Open Doors Team
+              </div>
+              <div class="story__sharing ml-auto">
+                <div class="share-buttons">
+                  <span>Share</span>
+                  <a href="#" target="_blank" title="Share on Twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" target="_blank" title="Share on Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img alt="Afghanistan" src="images/dist/posts/afghanistan-930.jpg">
+              <p>
+                <span>
+                  <em>Thank you for your prayers – they really do make an enormous difference for our church family</em>
+                </span>
+              </p>
+              <p>Meet Saleha (not her real name), in her 40s. She and her husband are members of a movement that wants to bring love and hope to Afghanistan.</p>
+              <p>So, unlike many around her, Saleha’s marriage to her husband was for love. “She once told me that she was a privilege child in the whole of Afghanistan, even the whole world, because she is the only wife whose husband love her,” shared Open Doors local partner.</p>
+              <p>This is because, as a member of the hope movement, her husband loves her. He does not beat her like the other husbands in her community. He even taught her how to read and write.</p>
+              <h2>Suspicions and abduction</h2>
+              <p>Instead of understanding, their families and the community became very suspicious of them. “That is seen by them as a bad thing, an anti-fanatical behaviour. They believe that they have sold their faith in Islam and are agents of the West,” our partner said.</p>
+              <p>As a result, it became too dangerous for them to stay in their home. But before they could move, her husband disappeared. “He was kidnapped. She was left all alone with no one to take care of her,” our partner said.</p>
+              <p>Some of their close friends, who share the same hope, took it upon themselves to care for her. She was moved to a different city where another family took her in as their daughter.</p>
+              <p>But she still waits for him to come home, and that waiting has been for many years. “She loves him so much that she refused to believe that he could possibly be dead,” she said. To her, he is alive even though there is no news and every knock on the door could be him.</p>
+              <p>The waiting and hoping tormented her. There was a season when she was very angry with God. “It was very difficult to see the journey that she went through. She gets excited whenever someone visits her to pray, send her Bible verses and encourage her. But sometimes she is so sad that she is not listening at all. She was so blinded by her grief and anger. It is in those difficult paths, where she could do nothing or see nothing, that her adopted family and friends continue to love and pray for her,” said our partner.</p>
+              <h2>A new hope</h2>
+              <p>She would sing songs that she and her husband used to sing together. She sang it to remember him. But later, the meaning of the songs broke through her anger.</p>
+              <p>“She came to realise who was with her and protected her. She remembered the original intent of her husband and her to bring hope to the nation. She remembered the difficult times they went through and how He was with them. And she finally realised that the sacrifice she had made as a young wife, in losing her husband, can nowhere be compared to the Greatest Sacrifice of All Time,” said our partner.</p>
+              <p>So, she learnt to be a daughter in her new home. She also learnt to be an older sister to her younger siblings, and that’s where she found her mission field, God’s calling for her life. She teaches them the Word of God and help them to memorise scriptures. Her adopted siblings became her own children since she doesn’t have any children.</p>
+              <h2>Please pray</h2>
+              <ul>
+                <li>Pray for the movement of hope in Afghanistan, for only truth can free the people from the bondage of sin and death</li>
+                <li>Pray for the many people, especially women’s rights group, who does not agree with the teachings of Taliban. May God grant them wisdom and protection to continue their fight to bring light, hope and freedom to the country</li>
+                <li>Pray for the Taliban, not for the group but individual members with it, from the foot soldiers to the top leadership. Pray for God to grant them a miracle of understanding. They are looking for a way to heaven, so pray for God to reveal to them Jesus who is the Way, the Truth and the Light.</li>
+              </ul>
+              <p>--</p>
+              <h1>The Taliban forces schoolteacher from home and job and puts her wedding in doubt</h1>
+              <p>
+                <em>20 April 2022</em>
+              </p>
+            </div>
+            <p>
+              One day Sister Fazlia* was a schoolteacher, the next she was jobless. One day she was preparing for her wedding, the next it was put on hold. One day she was respected by the community, the next she was fleeing for her life.
+            </p>
+            <p>The turning point was last summer, when the Taliban seized control of Afghanistan and even came looking for Sister Fazlia.</p>
+            <p>“Her dreams are now kind of held midway,” shares Hana Nasri*, an Open Doors local partner who visited her in a neighbouring country. “Her wedding dress was all ready but now the whole world changed for her. We held each other crying. And she kept pointing to heaven. That’s where her strength to endure comes from.”</p>
+            <div class="pull-right-wrapper">
+              <blockquote>"Your hands, for now, are like God’s loving hand on me" <cite>Sister Fazlia</cite></blockquote>
+            </div>
+            <p>Sister Fazlia left Afghanistan with seven school children, as well as some nephews and nieces. Now out of the country, she continues to teach the children, but with Bible songs.</p>
+            <p>“Having lived all her life in a culture where a father, a husband, a brother or a son provides protection and safeguards a woman’s decisions and journey, the stretch of road she’s on now is particularly challenging as she assumes those responsibilities herself in an alien environment,” explains Hana Nasri.</p>
+            <p>It means that Sister Fazlia’s own dreams may go unfulfilled, as she faces the possibility of having to sacrifice her hopes of a wedding and a family of her own, as well as her career. Her priority today is the children in her care. “I have always loved them very much,” she says. “And I wouldn’t trust anyone else to take care of them. I made the right choice, but I don’t know how my story will end.”</p>
+            <p>“At that moment,” Hana Nasri continues, “Fazlia took my hand and said, ‘Your hands, for now, are like God’s loving hand on me.’ She then pointed to heaven, from where she gets her strength.”</p>
+            <h2>Women disempowered by the Taliban</h2>
+            <p>But on 23 March, just hours after schools officially reopened, the ministry of education overturned their previous decision – secondary schools for Afghan girls were suddenly closed, to the heartbreak and dismay of thousands of young girls and parents in the country.</p>
+            <div class="pull-right-wrapper">
+              <div class="cta-box">
+                <div class="stat">Every £25</div>
+                <div class="description">could mean a persecuted woman receives visits from Open Doors partners, to help encourage and strengthen her in her faith.</div>
+                <a class="btn btn-secondary btn-lg view-more" href="#">Give a Gift</a>
+              </div>
+            </div>
+            <p>Hana Nasri says this wasn’t at all surprising and, irrespective of whether or not schools open, the Taliban’s ideology is aimed at disempowering women.</p>
+            <p>“The death sentence to any woman having a professional career was passed the day the Taliban came to power,” she says. “Regardless of whether schools open or not, the curriculum to be used (if the schools are opened) will be a curriculum meant to brainwash them and keep them hidden, debilitating them and slowing their growth down. The idea is to paralyse them.</p>
+            <p>“The death sentence to any woman having a professional career was passed the day the Taliban came to power,” she says. “Regardless of whether schools open or not, the curriculum to be used (if the schools are opened) will be a curriculum meant to brainwash them and keep them hidden, debilitating them and slowing their growth down. The idea is to paralyse them.</p>
+            <h2>More ways to pray</h2>
+            <h3>Gulshan's story</h3>
+            <div class="responsive-wrapper">
+              <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/5MBwz4lz9F4?enablejsapi=1&amp;origin=https%3A%2F%2Fwww.opendoorsuk.org" width="560" data-gtm-yt-inspected-7530309_41="true" id="205981455"></iframe>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <h3>Zabi's story</h3>
+                <div class="responsive-wrapper">
+                  <div class="youtube_iframe">
+                    <iframe allowfullscreen="allowfullscreen" frameborder="0" height="150" src="https://player.vimeo.com/video/667285059" width="300" data-gtm-yt-inspected-7530309_41="true"></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <h3>Saad and Fatimah</h3>
+                <div class="responsive-wrapper">
+                  <div class="youtube_iframe">
+                    <iframe allowfullscreen="allowfullscreen" frameborder="0" height="150" src="https://player.vimeo.com/video/667285059" width="300" data-gtm-yt-inspected-7530309_41="true"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p>Thank you for your faithful prayers for your Afghan family, and for this country that is facing so much turmoil. Open Doors has received another prayer update, with seven ways you can keep praying for Afghanistan and for your persecuted church family.</p>
+            <h2>"Pray the Bible," says contact in the region</h2>
+            <p>
+              <em>23 August</em>
+            </p>
+            <p>As you continue to see shocking images and hear shocking stories from Afghanistan, we know that you and all Open Doors supporters are keen to stand with Afghan people in prayer. But knowing how to pray is hard.</p>
+            <div class="pull-left-wrapper">
+              <blockquote>"Pray for the Noahs, Daniels, Ruths, Naomis, Peters, Pauls, Marys and Marthas."</blockquote>
+            </div>
+            <p>“Then pray the Bible”, a local friend in the region says. “Pray for the Esthers, that they can provide protection for the one they love. Pray for the Samuels, who may hear God’s voice calling out to them. Pray that they will say: ‘Here I am, Lord’.</p>
+            <p>“Pray for Christian Davids, men with a warrior heart. Pray for the Lydias, faithful women serving the church. Pray for the Abrahams leading their families. Pray for the Noahs, Daniels, Ruths, Naomis, Peters, Pauls, Marys and Marthas. Pray for each character in the Bible and their Afghan equivalents.</p>
+            <h2>6 ways you can pray for Afghanistan</h2>
+            <ul>
+              <li><strong>Pray for wisdom in how to survive</strong>. Ask the Lord to guide the citizens in the country – especially our brothers and sisters – in how to deal with interrogations and brutalities in the days to come.</li>
+            </ul>
+            <ul>
+              <li><strong>Pray for believers</strong> will receive the pastoral care that they need.</li>
+            </ul>
+            <ul>
+              <li><strong>Pray for children in Afghanistan</strong>. Pray for the schools and educational programs, that somehow they will function. And pray that God will preserve the dignity and wellness of the children, by raising up bold prophetic warriors who will guard children’s safety and fight for their protection from all kinds of abuses.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-action-boxes">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <hr>
+          </div>
+        </div>
+        <div class="row row-eq-height">
+          <div class="col-md-6 d-flex">
+            <div class="story-action-boxes__box flex-grow-1">
+              <div class="small-label">
+                <span>Please pray</span>
+              </div>
+              <p>Please use the prayer points in the article to join with the worldwide church in lifting up the people of Afghanistan - particularly the small number of Christians living there.</p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex">
+            <div class="story-action-boxes__box alternative flex-grow-1">
+              <div class="small-label">
+                <span>Read more</span>
+              </div>
+              <p>You can receive updates from the persecuted church, and how you can pray for and support them, by signing up for regular emails.</p>
+              <p>
+                <a class="btn btn-lg btn-primary" target="_blank" href="#">Sign me up</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="share-this-story">
+      <div class="share-this-story__label">Share this story</div>
+      <div class="share-this-story__buttons">
+        <a href="#" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="more-stories">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <hr>
+          </div>
+        </div>
+        <div class="row row-eq-height">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h4>Latest stories from Afghanistan</h4>
+            <div class="more-stories__listing">
+              <article>
+                <div class="summary-details">Afghanistan | March 30, 2022</div>
+                <div class="excerpt">
+                  <a href="#">Two ways you can pray for persecuted Christians in Ramadan</a>
+                </div>
+              </article>
+              <article>
+                <div class="summary-details">Afghanistan | April 25, 2022</div>
+                <div class="excerpt">
+                  <a href="#">Challenge after challenge face Afghan refugees – but your support is helping meet needs</a>
+                </div>
+              </article>
+              <article>
+                <div class="summary-details">Afghanistan | February 10, 2022</div>
+                <div class="excerpt">
+                  <a href="#">Video: A secret Christian from Afghanistan</a>
+                </div>
+              </article>
+              <a href="#" class="view-more">View Afghanistan country page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="get-involved">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 ml-auto mr-auto section-intro">
+            <h2 id="getinvolved">Get involved</h2>
+            <p>
+              Your support helps persecuted Christians continue to courageously follow Jesus.<br>
+              Together, we can reach those where persecution hits hardest.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="get-involved-slider slider-get-involved">
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+        <div class="get-involved-slider__slide">
+          <img src="images/dist/slider/2203-452-involved-pastor-andrew.jpg">
+          <div class="title-wrapper">
+            <a class="title" data-event-action="Click" data-event-category="Homepage Box" data-event-label="Box 1 (text)" href="#">Turn despair into hope: give today</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="content-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Quick links</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Home">Home</a>
+                </li>
+                <li>
+                  <a href="#" title="Speak Out">Speak Out</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+                <li>
+                  <a href="#" title="Youth">Youth</a>
+                </li>
+                <li>
+                  <a href="#" title="Media">Media</a>
+                </li>
+                <li>
+                  <a href="#" title="Subscribe to Emails">Subscribe to Emails</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Social media</h5>
+            <ul class="footer-menu">
+              <li>
+                <a href="#" target="_blank">Facebook</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Twitter</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Instagram</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-5">
+            <h5>Get involved</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Fundraise for your persecuted family">Fundraise for your persecuted family</a>
+                </li>
+                <li>
+                  <a href="#" title="Get resources for your online church">Get resources for your online church</a>
+                </li>
+                <li>
+                  <a href="#" title="Stuff to share with kids">Stuff to share with kids</a>
+                </li>
+                <li>
+                  <a href="#" title="Support courageous Christians">Support courageous Christians</a>
+                </li>
+                <li>
+                  <a href="#" title="Take a look at our Prayer Diary">Take a look at our Prayer Diary</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 charity-details">
+            <p>
+              <a href="/">
+                <img alt="Open Doors Logo" class="footer-logo" src="images/dist/footer-logo.svg">
+              </a>
+            </p>
+            <p>Registered Charity in England and Wales No. 1125684, Scotland SC043710 and Republic of Ireland 20140984.</p>
+            <p>
+              <a href="#">Contact Details</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row copyright">
+          <div class="col-6">© Copyright 2022&nbsp;Open Doors UK &amp; Ireland</div>
+          <div class="col-6 text-right">
+            <a href="#">Safeguarding</a>&nbsp;|&nbsp;<a href="#">Privacy</a>&nbsp;|&nbsp;<a href="#" target="_blank">Complaints</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/default/default.bundle.js"></script>
+    <script src="js/default/default.preform.bundle.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
