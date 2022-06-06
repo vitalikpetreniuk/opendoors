@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/default.bundle.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="https://kit.fontawesome.com/c454b5b31f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header class="banner">
+      <nav class="navbar navbar-expand-xl main-navigation">
+        <a class="navbar-brand" href="/">
+          <img src="images/dist/logo.svg" alt="Open Doors Logo">
+        </a>
+        <img src="images/dist/logo-fundraising-regulator.png" alt="Registered with Fundraising Regulator" class="fr-logo">
+      </nav>
+    </header>
+
+    <section class="alternative-page donate-steps" role="document">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>I'd like to donate £11.99</h2>
+            <div class="donate-steps__form-wrapper">
+              <div class="row">
+                <div class="col-lg-6 ml-auto mr-auto">
+                  <div class="donation-progress">
+                    <ul class="donation-progress__bar">
+                      <li class="done">2. Details</li>
+                      <li class="active">3. Payment</li>
+                      <li>4. Confirmation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 offset-md-2 col-lg-3 offset-lg-2">
+                  <div class="donate-steps__featured-image">
+                    <p>
+                      <img alt="" class="details-sideimg normalize-img" src="images/dist/posts/donate-details-placeholder.png">
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-1">
+                  <div class="donate-steps__form">
+                    <h6><i class="fas fa-lock"></i> Secure card payment</h6>
+                    <div class="form-group">
+                      <label for="st-paymenttypedescription-dropdown">Card Type</label>
+                      <select required="required" id="st-paymenttypedescription-dropdown" name="paymenttypedescription" class="form-control form-control-lg valid">
+                        <option value=""></option>
+                        <option value="MAESTRO">Maestro</option>
+                        <option value="MASTERCARD">Mastercard</option>
+                        <option value="MASTERCARDDEBIT">Mastercard Debit</option>
+                        <option selected="selected" value="VISA">Visa</option>
+                        <option value="DELTA">Visa Debit</option>
+                        <option value="ELECTRON">Visa Electron</option>
+                        <option value="PURCHASING">Visa Purchasing</option>
+                        <option value="VPAY">VPay</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="st-pan-textfield">Card Number</label>
+                      <input name="pan" required="required" value="" autocomplete="off" type="tel" id="st-pan-textfield" class="form-control form-control-lg donate-steps__card-number error">
+                      <label id="st-pan-textfield-error" class="error" for="st-pan-textfield">This field is required.</label>
+                    </div>
+                    <div class="form-group row  align-items-center">
+                      <div class="col-sm-5 my-1">
+                        <label for="st-expirymonth-dropdown">Expiry Month</label>
+                        <select required="required" id="st-expirymonth-dropdown" name="expirymonth" class="form-control form-control-lg error">
+                          <option selected="selected" value=""></option>
+                          <option value="01">01</option>
+                          <option value="02">02</option>
+                          <option value="03">03</option>
+                          <option value="04">04</option>
+                          <option value="05">05</option>
+                          <option value="06">06</option>
+                          <option value="07">07</option>
+                          <option value="08">08</option>
+                          <option value="09">09</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                        </select>
+                        <label id="st-expirymonth-dropdown-error" class="error" for="st-expirymonth-dropdown">This field is required.</label>
+                      </div>
+                      <div class="col-sm-2 text-center"><br>/</div>
+                      <div class="col-sm-5 my-1">
+                        <label for="st-expiryyear-dropdown">Expiry Year</label>
+                        <select required="required" id="st-expiryyear-dropdown" name="expiryyear" class="form-control form-control-lg error">
+                          <option selected="selected" value=""></option>
+                          <option value="2022">2022</option>
+                          <option value="2023">2023</option>
+                          <option value="2024">2024</option>
+                          <option value="2025">2025</option>
+                          <option value="2026">2026</option>
+                          <option value="2027">2027</option>
+                          <option value="2028">2028</option>
+                          <option value="2029">2029</option>
+                          <option value="2030">2030</option>
+                          <option value="2031">2031</option>
+                          <option value="2032">2032</option>
+                          <option value="2033">2033</option>
+                          <option value="2034">2034</option>
+                          <option value="2035">2035</option>
+                          <option value="2036">2036</option>
+                          <option value="2037">2037</option>
+                          <option value="2038">2038</option>
+                          <option value="2039">2039</option>
+                          <option value="2040">2040</option>
+                          <option value="2041">2041</option>
+                          <option value="2042">2042</option>
+                        </select>
+                        <label id="st-expiryyear-dropdown-error" class="error" for="st-expiryyear-dropdown">This field is required.</label>
+                      </div>
+                    </div>
+                    <div class="form-group row align-items-center">
+                      <div class="col-sm-4">
+                        <label for="st-securitycode-textfield">Security code</label>
+                        <input name="securitycode" required="required" value="" autocomplete="off" type="tel" id="st-securitycode-textfield" class="form-control form-control-lg error">
+                        <label id="st-securitycode-textfield-error" class="error" for="st-securitycode-textfield">This field is required.</label>
+                      </div>
+                      <div class="col-sm-8">
+                        <button type="button" class="btn btn-link btn-tooltip grey-btn" data-toggle="tooltip" data-placement="top" title="" data-original-title="Enter the last 3 digits printed on the signature strip on the back of your card. This is also known as the CVV or CVC.">
+                          Enter card's CVV number <i class="far fa-question-circle"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <input type="submit" value="Complete My Donation" id="submit" name="process" class="btn btn-primary margin-20 w-100">
+                    <p>
+                      <small>Open Doors takes data protection seriously and stores your data securely. We will not pass on your details to any third party or call you to ask for money.</small>
+                    </p>
+                    <p>
+                      <small>
+                        <a href="#">Privacy Policy</a>
+                      </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="content-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Quick links</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Home">Home</a>
+                </li>
+                <li>
+                  <a href="#" title="Speak Out">Speak Out</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+                <li>
+                  <a href="#" title="Youth">Youth</a>
+                </li>
+                <li>
+                  <a href="#" title="Media">Media</a>
+                </li>
+                <li>
+                  <a href="#" title="Subscribe to Emails">Subscribe to Emails</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Social media</h5>
+            <ul class="footer-menu">
+              <li>
+                <a href="#" target="_blank">Facebook</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Twitter</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Instagram</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-5">
+            <h5>Get involved</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Fundraise for your persecuted family">Fundraise for your persecuted family</a>
+                </li>
+                <li>
+                  <a href="#" title="Get resources for your online church">Get resources for your online church</a>
+                </li>
+                <li>
+                  <a href="#" title="Stuff to share with kids">Stuff to share with kids</a>
+                </li>
+                <li>
+                  <a href="#" title="Support courageous Christians">Support courageous Christians</a>
+                </li>
+                <li>
+                  <a href="#" title="Take a look at our Prayer Diary">Take a look at our Prayer Diary</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 charity-details">
+            <p>
+              <a href="/">
+                <img alt="Open Doors Logo" class="footer-logo" src="images/dist/footer-logo.svg">
+              </a>
+            </p>
+            <p>Registered Charity in England and Wales No. 1125684, Scotland SC043710 and Republic of Ireland 20140984.</p>
+            <p>
+              <a href="#">Contact Details</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row copyright">
+          <div class="col-6">© Copyright 2022&nbsp;Open Doors UK &amp; Ireland</div>
+          <div class="col-6 text-right">
+            <a href="#">Safeguarding</a>&nbsp;|&nbsp;<a href="#">Privacy</a>&nbsp;|&nbsp;<a href="#" target="_blank">Complaints</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/default/default.bundle.js"></script>
+    <script src="js/default/default.preform.bundle.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

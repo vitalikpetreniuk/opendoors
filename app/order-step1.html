@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/default.bundle.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/app.min.css">
+    <script src="https://kit.fontawesome.com/c454b5b31f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <header class="banner">
+      <nav class="navbar navbar-expand-xl main-navigation">
+        <a class="navbar-brand" href="/">
+          <img src="images/dist/logo.svg" alt="Open Doors Logo">
+        </a>
+        <img src="images/dist/logo-fundraising-regulator.png" alt="Registered with Fundraising Regulator" class="fr-logo">
+      </nav>
+    </header>
+
+    <section class="alternative-page donate-steps" role="document">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Make a purchase</h2>
+            <div class="donate-steps__form-wrapper">
+              <div class="row">
+                <div class="col-lg-6 ml-auto mr-auto">
+                  <div class="donation-progress">
+                    <ul class="donation-progress__bar">
+                      <li class="active">2. Details</li>
+                      <li>3. Payment</li>
+                      <li>4. Confirmation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 offset-md-2 col-lg-3 offset-lg-2">
+                  <div class="donate-steps__featured-image">
+                    <p>
+                      <img alt="" class="details-sideimg normalize-img" src="images/dist/posts/donate-details-placeholder.png">
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-8 offset-md-2 col-lg-4 offset-lg-1">
+                  <div class="donate-steps__form">
+                    <h6>Details</h6>
+                    <div class="form-group">
+                      <label for="billingtitle" aria-required="true">Title *</label>
+                      <select name="" id="billingtitle" class="form-control form-control-lg error" aria-invalid="false" aria-required="true">
+                        <option selected="selected" value="">-- Select Title --</option>
+                        <option value="814370000">Mr</option>
+                        <option value="814370001">Mrs</option>
+                        <option value="814370002">Ms</option>
+                        <option value="814370003">Miss</option>
+                        <option value="709430000">Dr</option>
+                        <option value="100000028">Rev</option>
+                        <option value="100000002">Archdeacon</option>
+                        <option value="100000004">Baroness</option>
+                        <option value="100000008">Bishop</option>
+                        <option value="100000007">Brigadier</option>
+                        <option value="100000009">Brother</option>
+                        <option value="100000010">Canon</option>
+                        <option value="100000011">Captain</option>
+                        <option value="100000012">Cllr</option>
+                        <option value="100000013">Colonel</option>
+                        <option value="100000014">Commander</option>
+                        <option value="100000015">Deacon</option>
+                        <option value="100000016">Deaconess</option>
+                        <option value="100000005">Earl</option>
+                        <option value="100000017">Father</option>
+                        <option value="100000000">Lady</option>
+                        <option value="709430001">Laird</option>
+                        <option value="100000018">Lieutenant</option>
+                        <option value="100000003">Lord</option>
+                        <option value="100000019">Lt</option>
+                        <option value="100000020">Lt Col</option>
+                        <option value="100000021">Major</option>
+                        <option value="709430005">Minister</option>
+                        <option value="100000001">Mme</option>
+                        <option value="100000023">Mother</option>
+                        <option value="100000026">Pastor</option>
+                        <option value="100000006">Prince</option>
+                        <option value="100000027">Prof</option>
+                        <option value="100000029">Rev Canon</option>
+                        <option value="100000030">Rev Dr</option>
+                        <option value="100000034">Rt. Rev</option>
+                        <option value="100000032">Sister</option>
+                        <option value="100000031">The Rt Rev'd Dr</option>
+                        <option value="709430002">Venerable</option>
+                        <option value="100000033">Viscountess</option>
+                        <option value="814370004">Master</option>
+                        <option value="814370005">Sir</option>
+                        <option value="814370006">Dame</option>
+                      </select>
+                      <label id="billingtitle-error" class="error" for="billingtitle">This field is required.</label>
+                    </div>
+                    <div class="form-group">
+                      <label for="billingfirstname">First Name *</label>
+                      <input id="billingfirstname" name="billingfirstname" type="text" value="" class="form-control form-control-lg error" aria-required="true">
+                      <label id="billingfirstname-error" class="error" for="billingfirstname">This field is required.</label>
+                    </div>
+                    <div class="form-group">
+                      <label for="billinglastname">Last Name *</label>
+                      <input id="billinglastname" name="billinglastname" type="text" value="" class="form-control form-control-lg error" aria-required="true">
+                      <label id="billinglastname-error" class="error" for="billinglastname">This field is required.</label>
+                    </div>
+                    <div class="form-group">
+                      <label for="billingemail">Email *</label>
+                      <input id="billingemail" name="billingemail" type="email" value="" class="form-control form-control-lg error" aria-required="true">
+                      <label id="billingemail-error" class="error" for="billingemail">This field is required.</label>
+                    </div>
+                    <div class="form-check d-flex">
+                      <input class="form-check-input" type="checkbox" value="" id="under21">
+                      <label class="form-check-label" for="under21">Under 21?</label>
+                    </div>
+                    <div class="divider"></div>
+                    <h6>Billing Address</h6>
+                    <div class="form-group">
+                      <label for="billingcountry">Country</label>
+                      <select id="billingcountry" name="billingcountry" class="form-control form-control-lg valid" aria-required="true">
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Republic of Ireland">Republic of Ireland</option>
+                        <option value=""></option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="billingpremise">Address Line 1 *</label>
+                      <input id="billingpremise" name="billingpremise" type="text" value="" class="form-control form-control-lg error" autocomplete="pca-override" aria-required="true">
+                      <label id="billingpremise-error" class="error" for="billingpremise">This field is required.</label>
+                    </div>
+                    <div class="form-group">
+                      <label for="billingstreet">Address Line 2</label>
+                      <input id="billingstreet" name="billingstreet" type="text" value="" class="form-control form-control-lg">
+                    </div>
+                    <div class="form-group">
+                      <label for="billingstreet1">Address Line 3</label>
+                      <input id="billingstreet1" name="billingstreet1" type="text" value="" class="form-control form-control-lg">
+                    </div>
+                    <div class="form-group">
+                      <label for="billingtown">Town / City *</label>
+                      <input id="billingtown" name="billingtown" type="text" value="" class="form-control form-control-lg error" aria-required="true">
+                      <label id="billingtown-error" class="error" for="billingtown">This field is required.</label>
+                    </div>
+                    <div class="form-group">
+                      <label for="billingcounty">County *</label>
+                      <input id="billingcounty" name="billingcounty" type="text" value="" class="form-control form-control-lg error" aria-required="true">
+                      <label id="billingcounty-error" class="error" for="billingcounty">This field is required.</label>
+                    </div>
+                    <div class="form-group">
+                      <label for="billingpostcode">Postcode *</label>
+                      <input id="billingpostcode" name="billingpostcode" type="text" value="" class="form-control form-control-lg error" autocomplete="pca-override" aria-required="true">
+                      <label id="billingpostcode-error" class="error" for="billingpostcode">This field is required.</label>
+                    </div>
+                    <div class="form-group">
+                      <label for="billingtelephone">Phone</label>
+                      <input id="billingtelephone" name="billingtelephone" type="text" value="" class="form-control form-control-lg valid" aria-required="true">
+                    </div>
+                    <h6>Additional Details</h6>
+                    <div class="form-group">
+                      <label for="activitymotivation">What inspired you to give today?</label>
+                      <select name="activitymotivation" id="activitymotivation" class="form-control form-control-lg" aria-invalid="false">
+                        <option selected="selected" value="">-- Select Motivation --</option>
+                        <option value="Open Doors mailing">Open Doors mailing</option>
+                        <option value="An Open Doors speaker came to my church">An Open Doors speaker came to my church</option>
+                        <option value="Our church ran a service with a focus on Open Doors">Our church ran a service with a focus on Open Doors</option>
+                        <option value="Visited the website">Visited the website</option>
+                        <option value="Social media">Social media</option>
+                        <option value="Newspaper / magazine">Newspaper / magazine</option>
+                        <option value="Radio">Radio</option>
+                        <option value="Fundraising Event">Fundraising Event</option>
+                        <option value="In Memory">In Memory</option>
+                        <option value="Other">Other</option>
+                      </select>
+                    </div>
+                    <p class="small-text">We'd love to keep you in touch with stories of courageous faith and ways to get involved and make a difference.</p>
+                    <h6>How would you like to stay in touch with us?</h6>
+                    <div class="form-check d-flex">
+                      <input id="chkemailweek" type="checkbox" name="chkemailweek" value="weekly" class="form-check-input">
+                      <label class="form-check-label" for="chkemailweek">
+                        Weekly email updates
+                      </label>
+                    </div>
+                    <div class="form-check d-flex">
+                      <input id="chkemailmonth" type="checkbox" name="chkmailmonth" value="monthly" class="form-check-input">
+                      <label class="form-check-label" for="chkemailmonth">
+                        Monthly email updates
+                      </label>
+                    </div>
+                    <div class="form-check d-flex">
+                      <input id="chkpost" type="checkbox" name="chkpost" value="post" class="form-check-input">
+                      <label class="form-check-label" for="chkpost">
+                        Post
+                      </label>
+                    </div>
+                    <div class="form-check d-flex">
+                      <input id="chkphone" type="checkbox" name="chkphone" value="phone" class="form-check-input">
+                      <label class="form-check-label" for="chkphone">
+                        Phone
+                      </label>
+                    </div>
+                    <input type="button" name="" value="Next" id="NextButton" class="btn btn-primary button next submit-btn margin-20 w-100">
+                    <p>
+                      <small>Open Doors takes data protection seriously and stores your data securely. We will not pass on your details to any third party or call you to ask for money.</small>
+                    </p>
+                    <p>
+                      <small>
+                        <a href="#">Privacy Policy</a>
+                      </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="content-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Quick links</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Home">Home</a>
+                </li>
+                <li>
+                  <a href="#" title="Speak Out">Speak Out</a>
+                </li>
+                <li>
+                  <a href="#" title="Jobs">Jobs</a>
+                </li>
+                <li>
+                  <a href="#" title="Youth">Youth</a>
+                </li>
+                <li>
+                  <a href="#" title="Media">Media</a>
+                </li>
+                <li>
+                  <a href="#" title="Subscribe to Emails">Subscribe to Emails</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <h5>Social media</h5>
+            <ul class="footer-menu">
+              <li>
+                <a href="#" target="_blank">Facebook</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Twitter</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">Instagram</a>
+              </li>
+              <li>
+                <a href="#" target="_blank">YouTube</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-5">
+            <h5>Get involved</h5>
+            <div>
+              <ul class="weblinks-depth-1 footer-menu" data-weblinks-depth="1">
+                <li>
+                  <a href="#" title="Fundraise for your persecuted family">Fundraise for your persecuted family</a>
+                </li>
+                <li>
+                  <a href="#" title="Get resources for your online church">Get resources for your online church</a>
+                </li>
+                <li>
+                  <a href="#" title="Stuff to share with kids">Stuff to share with kids</a>
+                </li>
+                <li>
+                  <a href="#" title="Support courageous Christians">Support courageous Christians</a>
+                </li>
+                <li>
+                  <a href="#" title="Take a look at our Prayer Diary">Take a look at our Prayer Diary</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 charity-details">
+            <p>
+              <a href="/">
+                <img alt="Open Doors Logo" class="footer-logo" src="images/dist/footer-logo.svg">
+              </a>
+            </p>
+            <p>Registered Charity in England and Wales No. 1125684, Scotland SC043710 and Republic of Ireland 20140984.</p>
+            <p>
+              <a href="#">Contact Details</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row copyright">
+          <div class="col-6">© Copyright 2022&nbsp;Open Doors UK &amp; Ireland</div>
+          <div class="col-6 text-right">
+            <a href="#">Safeguarding</a>&nbsp;|&nbsp;<a href="#">Privacy</a>&nbsp;|&nbsp;<a href="#" target="_blank">Complaints</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/default/default.bundle.js"></script>
+    <script src="js/default/default.preform.bundle.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

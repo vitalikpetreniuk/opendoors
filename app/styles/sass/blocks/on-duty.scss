@@ -1,0 +1,42 @@
+form.initial {
+  font-size: 20px !important;
+  line-height: 30px !important;
+}
+input.initial {
+  width: initial !important;
+  margin: initial !important;
+  @include media-max(767) {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+.form-group label.error {
+  color: red;
+}
+.divider {
+  margin-bottom: 40px;
+}
+.small-text {
+  font-size: 16px;
+  line-height: 25px;
+}
+.w-100 {
+  width: 100%;
+}
+.margin-20 {
+  margin: 20px 0;
+}
+.normalize-img {
+  padding: 0;
+  object-fit: cover;
+  @include media-max(991) {
+    width: 100% !important;
+  }
+}
+.grey-btn {
+  color: #b1b3af;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+}
