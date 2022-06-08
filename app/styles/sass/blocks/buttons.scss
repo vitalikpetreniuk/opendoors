@@ -1,0 +1,10 @@
+.button-social {
+  display: inline-flex;
+  background: #6B3267;
+  border-radius: 5px;
+  padding: 15px;
+  transition: .2s linear;
+  &:hover {
+   background: #FFFFFF;
+  }
+}

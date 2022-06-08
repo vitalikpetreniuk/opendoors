@@ -40,3 +40,28 @@ input.initial {
   line-height: 25px;
   font-weight: 400;
 }
+
+.content-info {
+  &__socials {
+    li {
+      &:not(:last-of-type) {
+        margin-right: 4px;
+      }
+      a {
+        i {
+          margin: 0;
+          &::before {
+            transition: .2s linear;
+          }
+        }
+        &:hover {
+          i {
+            &::before {
+              background: #6b3267;
+            }
+          }
+        }
+      }
+    }
+  }
+}
