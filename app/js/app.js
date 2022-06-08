@@ -2,6 +2,7 @@
 // import '~/app/libs/mmenu/dist/mmenu.js'
 
 import "slick-carousel"
+import '../js/parallax.js-1.5.0/parallax.js'
 
 document.addEventListener('DOMContentLoaded', () => {
 

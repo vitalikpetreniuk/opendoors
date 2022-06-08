@@ -1,0 +1,13 @@
+.parallax-container {
+  &.wide {
+    min-height: 50vh;
+  }
+  &.narrow {
+    min-height: 25vh;
+  }
+}
+
+.parallax-mirror {
+  overflow: hidden;
+  position: fixed;
+}
