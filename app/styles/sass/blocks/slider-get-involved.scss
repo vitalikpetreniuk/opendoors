@@ -34,4 +34,45 @@
   .slick-dots li button:before, .slider-get-involved .slick-dots li.slick-active button:before {
     color: #FFFFFF;
   }
+  &-slider {
+    &__slide {
+      &.black-and-white {
+        img {
+          filter: grayscale(100%);
+          transition: .2s linear;
+        }
+        &:hover {
+          img {
+            filter: grayscale(0%);
+          }
+          &::before, &::after {
+            display: none !important;
+          }
+        }
+      }
+      &.photo-change {
+        & > img {
+          &:nth-of-type(1) {
+            display: block;
+          }
+          &:nth-of-type(2) {
+            display: none;
+          }
+        }
+        &:hover {
+          & > img {
+            &:nth-of-type(1) {
+              display: none;
+            }
+            &:nth-of-type(2) {
+              display: block;
+            }
+          }
+          &::before, &::after {
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
 }
