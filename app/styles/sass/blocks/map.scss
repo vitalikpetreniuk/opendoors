@@ -1,0 +1,13 @@
+.map {
+  width: 100%;
+  svg {
+    width: 100%;
+  }
+  path {
+    fill: #555;
+    cursor: pointer;
+  }
+  path:hover {
+    fill: deepskyblue;
+  }
+}
