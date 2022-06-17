@@ -5,6 +5,9 @@
   &.narrow {
     min-height: 25vh;
   }
+  &.fullscreen {
+    min-height: 130vh;
+  }
 }
 
 .parallax-mirror {
