@@ -25,9 +25,17 @@
       width: calc(50% - 100px);
     }
     a {
+      & > div {
+        background: linear-gradient(180deg, rgba(180,34,171,1) 25%, rgba(108,143,225,1) 65%);
+        border-radius: 50%;
+        padding: 4px;
+        width: 122px;
+        height: 122px;
+      }
       text-align: center;
       text-decoration: none;
       img {
+        border: 4px solid #FFFFFF;
         width: 115px;
         height: 115px;
         object-fit: cover;
@@ -41,6 +49,13 @@
         line-height: 22px;
         text-align: center;
         color: #7A7A7A;
+      }
+    }
+    &.viewed {
+      a {
+        & > div {
+          background: #D2D7DB;
+        }
       }
     }
   }
