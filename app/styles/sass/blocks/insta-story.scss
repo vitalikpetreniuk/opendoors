@@ -60,3 +60,25 @@
     }
   }
 }
+
+.amp-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background: #FFFFFF;
+  border-radius: 50px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  @include media-max(700) {
+    top: 30px;
+    transform: none;
+    left: 20px;
+  }
+  img {
+    width: 22px ;
+  }
+}
